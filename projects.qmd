@@ -32,6 +32,34 @@ A new field bridging molecular biogeochemistry with ecosystem science. Applying 
 
 ::: {.project-card}
 ::: {.project-figure}
+Predictive ecology
+:::
+::: {.project-body}
+::: {.project-title}
+Predictive Ecology
+:::
+::: {.project-desc}
+Moving freshwater science from describing ecosystems to forecasting them. I co-lead work that pairs ecological theory with bleeding-edge, high-resolution data to anticipate how carbon cycling and water quality respond as the world changes.
+:::
+:::
+:::
+
+::: {.project-card}
+::: {.project-figure}
+Precision biogeochemistry
+:::
+::: {.project-body}
+::: {.project-title}
+Precision Biogeochemistry
+:::
+::: {.project-desc}
+AI-assisted pipelines that annotate the thousands of molecules in a single sample, turning raw FT-ICR-MS spectra into meaningful biogeochemistry: a faster, more reproducible, more precise way to read organic matter at molecular scale.
+:::
+:::
+:::
+
+::: {.project-card}
+::: {.project-figure}
 ![](assets/projects/global-ecosystem-change.jpg)
 :::
 ::: {.project-body}
@@ -39,7 +67,7 @@ A new field bridging molecular biogeochemistry with ecosystem science. Applying 
 Global Ecosystem Change
 :::
 ::: {.project-desc}
-How carbon lost from soils into waters under land-use change rewires freshwater chemistry — from boreal forests to temperate lakes — and what it means for ecosystem function.
+How carbon lost from soils into waters under land-use change rewires freshwater chemistry, from boreal forests to temperate lakes, and what it means for ecosystem function.
 :::
 :::
 :::
@@ -53,7 +81,7 @@ Improving academia
 Improving Academia
 :::
 ::: {.project-desc}
-Writing about and working to change the conditions of academic life — from the Science Working Life essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.
+Writing about and working to change the conditions of academic life, from the Science Working Life essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.
 :::
 :::
 :::
