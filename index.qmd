@@ -24,7 +24,7 @@ format:
     <h1 class="hero-name">
       <span>Erika C.</span>
       <span>Freeman</span>
-      <span class="title">Biogeochemist</span>
+      <span class="title">Carbon Biogeochemist</span>
     </h1>
   </div>
 </section>
@@ -36,13 +36,13 @@ format:
 [Bio]{.bio-label}
 
 ::: {.bio-text}
-I'm Erika, a researcher at the [Leibniz-Institut für Gewässerökologie und Binnenfischerei (IGB)](https://www.igb-berlin.de) in Berlin. I study how carbon moves through aquatic systems and what this means for human wellbeing. At the moment I spend most of my time pioneering *"the ecology of molecules"* — a new field bridging molecular biogeochemistry with ecosystem science.
+I'm Erika, a researcher at the [Leibniz-Institut für Gewässerökologie und Binnenfischerei (IGB)](https://www.igb-berlin.de) in Berlin. I study how carbon moves through aquatic systems and what this means for human wellbeing. Most of my days go to *the ecology of molecules*, an idea I love that brings ecological thinking to molecular biogeochemistry.
 
-Before IGB I was a Postdoc at Eawag, the ETH Domain's Swiss Federal Institute of Aquatic Science and Technology, with [Prof. Dr. Florian Altermatt](https://www.altermattlab.ch), a mentor nonpareil. I completed my PhD in biogeochemistry (2024) in the University of Cambridge Plant Science Department as a [Gates Cambridge Fellow](https://www.gatescambridge.org/biography/14622/) where I was very fortunate to be advised by Andrew Tanentzap and Erik Emilson.
+Before IGB I trained at some wonderful places: a postdoc at Eawag, the ETH Domain's Swiss Federal Institute of Aquatic Science and Technology, and a PhD in biogeochemistry (2024) at the University of Cambridge, where I was a [Gates Cambridge Fellow](https://www.gatescambridge.org/biography/14622/). I'm grateful to the brilliant people who shaped me along the way, and just as happy to have taken what they taught me and run somewhere of my own.
 
-I have also worked in the start-up space doing Life Cycle Assessments (Foodsteps Ltd, UK) and in Corporate Waste Management (Hydro One, Canada).
+Outside the lab I've worn a few other hats too: life-cycle assessments at a UK food-tech start-up (Foodsteps) and corporate waste management back in Canada (Hydro One).
 
-When I'm not at the office, I like irresponsible amounts of running, climbing, and exploring the great out-the-door with my partner.
+And when I'm not at the office, you'll usually find me doing irresponsible amounts of running and climbing, or out exploring the great out-the-door with my partner.
 :::
 :::
 
