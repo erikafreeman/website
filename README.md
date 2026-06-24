@@ -37,7 +37,7 @@ Or just tell Claude what to update and it'll edit the right file, commit, and pu
 | `_header.html`        | Masthead injected on every page                       |
 | `_footer.html`        | Colophon injected on every page                       |
 | `index.qmd`           | Hero + bio                                            |
-| `projects.qmd`        | 6-card project grid                                   |
+| `projects.qmd`        | Project-card grid                                     |
 | `impact.qmd`          | Research impact stat blocks                           |
 | `publications.qmd`    | *Generated* — do not edit (comes from the YAML)        |
 | `cv.qmd`              | *Generated* — CV page (HTML) + downloadable PDF        |

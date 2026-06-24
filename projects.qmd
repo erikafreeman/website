@@ -46,20 +46,6 @@ How carbon lost from soils into waters under land-use change rewires freshwater 
 
 ::: {.project-card}
 ::: {.project-figure}
-Corporate ecosystem mgmt
-:::
-::: {.project-body}
-::: {.project-title}
-Corporate Ecosystem Management
-:::
-::: {.project-desc}
-[Page under development]{.project-coming-soon}
-:::
-:::
-:::
-
-::: {.project-card}
-::: {.project-figure}
 Improving academia
 :::
 ::: {.project-body}
@@ -68,20 +54,6 @@ Improving Academia
 :::
 ::: {.project-desc}
 Writing about and working to change the conditions of academic life — from the Science Working Life essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.
-:::
-:::
-:::
-
-::: {.project-card}
-::: {.project-figure}
-![](assets/projects/living-lab.jpg)
-:::
-::: {.project-body}
-::: {.project-title}
-The Living Lab — Hunziker
-:::
-::: {.project-desc}
-*Add a short description here — currently a placeholder.*
 :::
 :::
 :::
