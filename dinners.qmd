@@ -5,6 +5,7 @@ format:
   html:
     toc: false
     page-layout: full
+    include-in-header: _personal-head.html
 ---
 
 ::: {.section-label}
