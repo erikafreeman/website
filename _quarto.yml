@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: scripts/build.py
+
+website:
+  title: "Erika C. Freeman"
+  description: "Aquatic biogeochemist, IGB Berlin"
+  site-url: "https://erikacfreeman.com"
+  favicon: assets/favicon.png
+  navbar: false
+  page-footer: " "
+
+format:
+  html:
+    theme: [darkly, custom.scss]
+    css: styles.css
+    toc: false
+    page-layout: full
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    include-before-body:
+      - _header.html
+    include-after-body:
+      - _footer.html

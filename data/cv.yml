@@ -1,0 +1,89 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# CV content (everything except publications, which come from publications.yml).
+# Edit here; the CV page (cv.qmd) and the downloadable PDF regenerate on build.
+# Source: Freeman_CV_Academic.md (Drive, updated 2026-06-23).
+# ─────────────────────────────────────────────────────────────────────────────
+
+profile:
+  name: "Erika C. Freeman"
+  tagline: "Junior Group Leader (Tenure Track), IGB Berlin"
+  email: "erika.freeman@igb-berlin.de"
+  orcid: "0000-0001-7161-6038"
+  scholar: "E6WubOUAAAAJ"
+  website: "erikacfreeman.com"
+  citizenship: "Swiss & Canadian citizen"
+  languages: "English (native), German (fluent), French (basic)"
+
+current_position: >
+  **Junior Group Leader (Tenure Track)** — group *Aquatic Biogeochemistry of
+  Carbon* (ABC Lab), Leibniz-Institute of Freshwater Ecology and Inland
+  Fisheries (IGB), Department 1 (Ecohydrology & Biogeochemistry); Programme
+  Area 4. Since **January 2026**. Research programme: the *ecology of molecules*
+  — dissolved organic matter (DOM) at molecular resolution (FT-ICR-MS) to
+  predict and manage carbon-climate feedbacks and water quality.
+
+appointments:
+  - role: "Postdoctoral Researcher (with F. Altermatt)"
+    institution: "Eawag (ETH Domain) & University of Zürich"
+    dates: "2023–2025"
+  - role: "Remote Team Facilitator, WHONDRS Consortium"
+    institution: "PNNL (international, ~20 countries)"
+    dates: "2021–present"
+  - role: "Program Coordinator, NSERC CREATE ABATE"
+    institution: "(5-country)"
+    dates: "2016–2018"
+  - role: "Team Coordinator, Boreal 2050"
+    institution: "Cdn. Network for Aquatic Ecosystem Services"
+    dates: "2016–2018"
+  - role: "Research Assistant"
+    institution: "Western University"
+    dates: "2013–2016"
+
+education:
+  - degree: "PhD, Plant Sciences"
+    institution: "University of Cambridge"
+    date: "defended Apr 2023"
+    supervisors: "A. Tanentzap; E. Emilson (Canadian Forest Service)"
+  - degree: "MSc, Geography / Global Health Systems"
+    institution: "Western University"
+    date: "2018"
+    supervisors: "I. Creed"
+  - degree: "BSc, Environmental Science"
+    institution: "Western University"
+    date: "2016"
+    supervisors: ""
+
+funding:
+  - "**DOE EMSL CAM #62138** (*Molecular Fingerprints of Metal Fate*), sole PI — **approved Feb 2026**; free PNNL FT-ICR-MS / NMR / multi-omics access."
+  - "**DOE EMSL FICUS #62211** (*AI-Enabled Phytomining of Critical Minerals*), co-PI with N. Jafari (Texas A&M) — **invited to full proposal, Mar 2026**."
+  - "**IGB start-up budget** €50,000."
+  - "*Applications in preparation:* DFG Sachbeihilfe TRACE (Sept 2026); DFG Emmy Noether / FreshDreaMS; ERC Starting Grant WATERMARK (2027); Leibniz Junior Research Group VITALS (Mar 2028)."
+
+honours:
+  - "**Gates Cambridge Scholarship** (2018–2023; ~1.3% acceptance rate)."
+  - "UTSC Postdoctoral Fellowship (2022–2024, declined)."
+  - "NSERC Canada Graduate Scholarship (M); Ontario Graduate Scholarship; NSERC USRA (2014, 2016); Cambridge fieldwork & travel awards."
+  - "*Science* \"Working Life\" essay (2024), among the year's most-read; re-featured for International Women's Day 2025."
+
+talks:
+  - "*If more UHR DOM data is the answer, what was the question?* — ASLO-SIL 2026, Montreal."
+  - "PLANET-DOM workshop, UFZ Leipzig (Sep 2025)."
+  - "Complex Organic Mixtures in Aquatic Systems (COMPASS), Delmenhorst (Mar 2025)."
+  - "BEEES seminar, University of Zürich (Mar 2025)."
+  - "*Synthesising DOM Across Ecosystems*, Skiathos (Oct 2023)."
+
+teaching:
+  - "**Supervised** five Cambridge research projects / theses (G. Mezciems, B. Tan, J. Gayford, L. Mahony, W. Pallier) and two field technicians (K. Waxenberg, J. Schadenburg)."
+  - "**Teaching:** Teaching Assistant, Western University (2016–2018); guest lecture, FU Berlin freshwater-ecology seminar (Spring 2026)."
+
+service:
+  - "**Coordinator**, WHONDRS Consortium (PNNL; ~20 countries)."
+  - "**Reviewer:** *Science*, *Science Advances*, *Nature Communications*, *Limnology & Oceanography*, *Geochimica et Cosmochimica Acta*, *Communications Earth & Environment*, *Biogeosciences*."
+  - "**Grant / fellowship review:** NSERC Discovery; GWIS National Fellowship."
+  - "**Session chair:** ASLO 2027 (San Juan; with J. Wang); a DFG meeting session."
+  - "Cross-IGB roles: co-leads the predictive-ecology working group; contributes to the Cross-cutting Theme/Platform (CTP) Data Management."
+
+skills: >
+  Python, R, Google Earth Engine, bash, hydrological modeling (WhiteboxTools);
+  statistics (GLM, mixed-effects, Bayesian, multivariate, machine learning);
+  FT-ICR-MS / Orbitrap; AI annotation pipeline; geospatial analysis.

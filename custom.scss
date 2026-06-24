@@ -1,0 +1,574 @@
+/*-- scss:defaults --*/
+
+// === Dark / bold / scientific palette — matches her Canva ===
+$bg:         #2c2e34;   // dark charcoal, slightly warm — used throughout
+$bg-elev:    #34363d;   // raised surfaces (cards, panels)
+$ink:        #ffffff;   // primary text
+$mute:       #a8a8a8;   // muted text
+$line:       #43464e;   // subtle dividers
+$accent:     #9bb87a;   // soft chemistry-illustration green
+$accent-2:   #e8b34c;   // warm highlight (sparingly)
+
+$body-bg:    $bg;
+$body-color: $ink;
+$primary:    $accent;
+$secondary:  $mute;
+$link-color: $ink;
+$link-hover-color: $accent;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-serif: $font-family-sans-serif;  // sans throughout
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 800;
+
+$navbar-bg: transparent;
+$navbar-fg: $ink;
+
+/*-- scss:rules --*/
+
+html, body { background: $bg; }
+body {
+  color: $ink;
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+  font-feature-settings: "kern", "liga", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: $accent; color: $bg; }
+
+a { color: $ink; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.35); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: $accent; text-decoration-color: $accent; }
+
+/* === Masthead — minimal dark === */
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  border-bottom: 1px solid $line;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: $bg;
+}
+.masthead-name a {
+  font-family: $font-family-sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: $ink;
+  text-decoration: none;
+}
+.masthead-nav {
+  display: flex;
+  gap: 1.8rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-weight: 600;
+}
+.masthead-nav a {
+  color: $mute;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.masthead-nav a:hover, .masthead-nav a.active {
+  color: $ink;
+  border-bottom-color: $accent;
+}
+@media (max-width: 760px) {
+  .masthead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+  }
+  .masthead-nav { gap: 1.1rem; flex-wrap: wrap; }
+}
+
+/* === Page container === */
+main, .page-columns, #quarto-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+@media (max-width: 760px) {
+  main, .page-columns, #quarto-content { padding: 0 1.5rem; }
+}
+
+/* === Section labels (BIO / PROJECTS / etc.) === */
+.section-label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: $mute;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.section-title {
+  font-family: $font-family-sans-serif;
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  color: $ink;
+  margin: 0 0 2rem;
+  text-transform: none;
+}
+
+/* === Hero (home) — split layout with grayscale photo === */
+.hero-split {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 0;
+  min-height: calc(100vh - 80px);
+  margin: -1px -3rem 0;  // bleed into masthead area
+  background: $bg;
+  position: relative;
+}
+.hero-photo {
+  background: $bg;
+  position: relative;
+  overflow: hidden;
+  min-height: 380px;
+}
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.85) contrast(1.04);
+  display: block;
+}
+.hero-content {
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $bg;
+}
+.hero-eyebrow {
+  font-family: $font-family-sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: $mute;
+  font-weight: 600;
+  margin-bottom: 2.2rem;
+}
+.hero-name {
+  font-family: $font-family-sans-serif;
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  color: $ink;
+  margin: 0;
+}
+.hero-name span { display: block; }
+.hero-name span.title {
+  font-size: clamp(2.4rem, 5.5vw, 4.6rem);
+  font-weight: 800;
+  margin-top: 0.1em;
+}
+
+/* Social icons cluster, top-left over photo */
+.hero-social {
+  position: absolute;
+  top: 1.6rem;
+  left: 1.8rem;
+  display: flex;
+  gap: 1.1rem;
+  font-size: 1.1rem;
+  z-index: 5;
+}
+.hero-social a {
+  color: $ink;
+  text-decoration: none;
+  border: none;
+  opacity: 0.92;
+  transition: color 0.15s, opacity 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(0,0,0,0.32);
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+.hero-social a:hover { color: $accent; opacity: 1; }
+
+@media (max-width: 1024px) {
+  .hero-split { grid-template-columns: 1fr; margin: 0 -1.5rem; min-height: auto; }
+  .hero-photo { min-height: 380px; aspect-ratio: 4/3; }
+  .hero-content { padding: 3rem 2rem; }
+}
+
+/* === Bio page — three-column layout === */
+.bio-section {
+  position: relative;
+  padding: 4rem 0;
+}
+.bio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  align-items: start;
+  position: relative;
+  z-index: 2;
+}
+.bio-col .bio-label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: $mute;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+}
+.bio-text {
+  color: $ink;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+.bio-text p { margin: 0 0 1rem; }
+.bio-text p a { color: $ink; text-decoration: underline; text-decoration-color: $accent; }
+.bio-list {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: $ink;
+}
+.bio-list ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+.bio-list li {
+  position: relative;
+  padding-left: 1.2rem;
+}
+.bio-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 0.55em;
+  height: 1px;
+  background: $accent;
+}
+
+/* Caffeine molecule decoration (bottom-right of bio) */
+.bio-decoration {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 240px;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 1;
+}
+.bio-decoration svg { width: 100%; height: auto; color: $accent; }
+
+@media (max-width: 1024px) {
+  .bio-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .bio-decoration { display: none; }
+}
+
+/* === Projects grid === */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.8rem;
+  margin: 2rem 0 4rem;
+}
+.project-card {
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: none;
+}
+.project-figure {
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, $bg-elev, $bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $mute;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  overflow: hidden;
+}
+.project-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.85) contrast(1.02);
+}
+.project-body { padding: 1.1rem 0.2rem 1.5rem; }
+.project-title {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-transform: none;
+  letter-spacing: -0.005em;
+  color: $ink;
+  margin: 0 0 0.6rem;
+  line-height: 1.3;
+}
+.project-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: $mute;
+  margin: 0;
+}
+.project-coming-soon {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  background: rgba(155, 184, 122, 0.12);
+  color: $accent;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.project-status {
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: $accent;
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+@media (max-width: 1024px) {
+  .projects-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}
+
+/* === Impact — stat blocks === */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin: 3rem 0;
+}
+.impact-block {
+  background: $bg-elev;
+  padding: 2rem;
+  border: 1px solid $line;
+}
+.impact-block h3 {
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: $mute;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+.impact-figure {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: $ink;
+  line-height: 1;
+  margin: 0.5rem 0;
+}
+.impact-block p { font-size: 0.95rem; color: $mute; margin: 0; }
+@media (max-width: 760px) {
+  .impact-grid { grid-template-columns: 1fr; }
+}
+
+/* === Publications — dense two-column list === */
+.pubs-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+.pubs-col h2 {
+  font-family: $font-family-sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $ink;
+  margin: 0 0 0.4rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.pubs-col h2::before { content: none; }
+.pubs-col .group-label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: $accent;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid $line;
+}
+.pubs-col .pub {
+  margin: 0 0 0.9rem;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  color: $ink;
+}
+.pubs-col .pub a { color: $ink; text-decoration-color: $accent; }
+.pubs-col .pub-venue {
+  display: block;
+  margin-top: 0.2rem;
+  color: $mute;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.pubs-col .pub-authors {
+  display: block;
+  margin-top: 0.1rem;
+  color: $mute;
+  font-size: 0.8rem;
+}
+@media (max-width: 1024px) {
+  .pubs-cols { grid-template-columns: 1fr; }
+}
+
+/* === Contact === */
+.contact-block {
+  margin: 3rem 0;
+  font-size: 1rem;
+  max-width: 40em;
+}
+.contact-block address {
+  font-style: normal;
+  margin: 1.2rem 0;
+  color: $ink;
+  line-height: 1.55;
+  white-space: pre-line;
+}
+.contact-block .label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: $mute;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+/* === Footer (minimal dark) === */
+.colophon {
+  margin: 5rem auto 0;
+  padding: 2rem 3rem 2.5rem;
+  max-width: 1400px;
+  color: $mute;
+  font-family: $font-family-sans-serif;
+  font-size: 0.74rem;
+  border-top: 1px solid $line;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: end;
+  letter-spacing: 0.08em;
+}
+.colophon a { color: $mute; text-decoration: none; border-bottom: 1px solid transparent; }
+.colophon a:hover { color: $ink; border-bottom-color: $accent; }
+.colophon-right { text-align: right; }
+@media (max-width: 760px) {
+  .colophon { grid-template-columns: 1fr; padding: 2rem 1.5rem; }
+  .colophon-right { text-align: left; }
+}
+
+/* === Hide Quarto chrome === */
+.quarto-title-block,
+.quarto-title,
+header#title-block-header,
+.quarto-secondary-nav {
+  display: none !important;
+}
+
+/* === CV page === */
+.cv-page { max-width: 860px; margin: 0 auto; padding-top: 1rem; }
+.cv-page .cv-name {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+}
+.cv-page .cv-name::before { content: none; }
+.cv-page .cv-tagline {
+  display: block;
+  color: $accent;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+.cv-page .cv-meta {
+  display: block;
+  color: $mute;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin-bottom: 1.4rem;
+}
+.cv-page .cv-download {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid $accent;
+  color: $accent;
+  padding: 0.4rem 0.95rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2.2rem;
+}
+.cv-page .cv-download:hover { background: $accent; color: $bg; }
+.cv-page h2 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: $accent;
+  font-weight: 700;
+  margin: 2.2rem 0 1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid $line;
+}
+.cv-page h2::before { content: none; }
+.cv-page p { font-size: 0.92rem; line-height: 1.55; }
+.cv-page ul { padding-left: 1.1rem; margin: 0.4rem 0 0.8rem; }
+.cv-page li { margin: 0.32rem 0; font-size: 0.9rem; line-height: 1.5; }
+.cv-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
+}
+.cv-page thead th {
+  text-align: left;
+  color: $mute;
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid $line;
+  padding: 0.35rem 0.7rem 0.35rem 0;
+}
+.cv-page tbody td {
+  padding: 0.4rem 0.7rem 0.4rem 0;
+  border-bottom: 1px solid rgba(67, 70, 78, 0.5);
+  vertical-align: top;
+  color: $ink;
+}

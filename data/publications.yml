@@ -1,0 +1,168 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SINGLE SOURCE OF TRUTH for all publications.
+# Edit THIS file to add/update a paper. On the next build, both the website
+# Publications page (publications.qmd) AND the CV (cv.qmd + PDF) regenerate.
+#
+# status:  published | under_review | in_prep | technical_report
+# Within each author group, entries render in the order listed here, grouped
+# by status. Author "*" marks equal contribution (auto-escaped on render).
+# first_author entries render as "with <coauthors>".
+# contributing entries render the full <authors> string; wrap your name in
+# **Freeman EC** to bold it.
+# ─────────────────────────────────────────────────────────────────────────────
+
+first_author:
+
+  - title: "Ecosystem ecology needs an ecology of molecules."
+    venue: "Trends in Ecology and Evolution"
+    year: 2025
+    status: published
+    url: "https://www.sciencedirect.com/science/article/pii/S0169534724003148"
+    coauthors: "Tianna Peller, Florian Altermatt"
+
+  - title: "Ticking Clock."
+    venue: "Science"
+    year: 2024
+    status: published
+    url: "https://www.science.org/content/article/women-academia-having-children-can-feel-impossible-talking-about-it-makes-us-feel-less"
+    coauthors: "Cecilia Padilla-Iglesias*"
+    note_html: " &nbsp; *[[Most popular Working Life essays of 2024](https://www.science.org/content/article/perfecting-academic-writing-facing-fraud-science-s-top-personal-essays-year)]*"
+
+  - title: "Cyanobacteria in the Anthropocene — synanthropism forged in an era of global change."
+    venue: "Water Environmental Research"
+    year: 2024
+    status: published
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1002/wer.11066"
+    coauthors: "Erratt KJ*"
+
+  - title: "Universal Microbial Processes Rework Dissolved Organic Matter along Environmental Gradients."
+    venue: "Nature Communications"
+    year: 2024
+    status: published
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10762207/"
+    coauthors: "Emilson EJS, Braga L, Emilson C, Martineau C, Dittmar T, Goldhammer T, Singer G, Tanentzap AJ"
+
+  - title: "Global Changes May Be Promoting a Rise in Select Cyanobacteria in Nutrient-poor Northern Lakes."
+    venue: "Global Change Biology"
+    year: 2020
+    status: published
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.15189"
+    coauthors: "Jones B, Bergstrom AK, Creed IF"
+
+  - title: "Turning on the Tap: Demand for Resources as a Driver of Change in the Boreal Zone, Canada."
+    venue: "Environmental Reviews"
+    year: 2019
+    status: published
+    url: "https://cdnsciencepub.com/doi/10.1139/er-2018-0064"
+    coauthors: "Erdozain M*, Daillaire CO*, Teichert S, Creed IF, Nelson HW"
+
+  - title: "Logging Disrupts the Ecology of Molecules in Headwater Streams"
+    venue: "PNAS"
+    status: under_review
+    preprint: true
+    url: "https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1"
+    coauthors: "Emilson EJS, Webster K, Dittmar T, Tanentzap AJ"
+
+  - title: "Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks"
+    venue: "Scientific Reports"
+    status: under_review
+    preprint: true
+    url: "https://www.researchsquare.com/article/rs-5565614/v1"
+    coauthors: "McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME"
+
+  - title: "Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests."
+    venue: "JGR: Biogeosciences"
+    status: in_prep
+    coauthors: "Tanentzap AJ, Emilson EJS, Dittmar T"
+
+  - title: "A cheat sheet for the environmental metabolomics revolution."
+    venue: "Science"
+    status: in_prep
+    coauthors: "Tianna Peller, François Keck, Florian Altermatt"
+
+  - title: "Leveraging community ecology to understand dissolved organic matter."
+    venue: "Frontiers in Ecology and Evolution"
+    status: in_prep
+    coauthors: "Florian Altermatt, Roman Alter"
+
+contributing:
+
+  - title: "Making Waves: Deep Cyanobacteria Layers Pose a \"Known Unknown\" Risk to Water Security."
+    venue: "Water Security"
+    year: 2023
+    status: published
+    # NOTE: URL below matches the EST 2022 entry — likely a copy error inherited
+    # from the old site. Verify the correct Water Security DOI.
+    url: "https://pubs.acs.org/doi/10.1021/acs.est.2c06928"
+    authors: "Erratt KJ, Creed IF, **Freeman EC**, Trick C"
+
+  - title: "Exploring Global River Corridor OM Chemistry through the Ecological Concept of Core-satellite Species."
+    venue: "Frontiers in Water"
+    year: 2023
+    status: published
+    url: "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2022.870453/full"
+    authors: "Stadler M, de Melo M, Garayburu-Caruso V, **Freeman EC**, Bice K, Mateus-Barros E, Lu Y, Barnard M, Cheng S, Dwivedi D, Tanentzap A, Meile C"
+
+  - title: "Determining the Biogeochemical Transformations of Organic Matter Composition in Global Rivers Using Molecular Signatures."
+    venue: "Frontiers in Water"
+    year: 2023
+    status: published
+    url: "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2023.1005792/full"
+    authors: "Buser-Young J, Garcia P, Schrenk M, Regier P, Ward ND, Biçe K, Brooks S, **Freeman EC**, Lønborg C"
+
+  - title: "Deep Cyanobacteria Layers: An Overlooked Aspect of Managing Risks of Cyanobacteria."
+    venue: "Environmental Science & Technology"
+    year: 2022
+    status: published
+    url: "https://pubs.acs.org/doi/10.1021/acs.est.2c06928"
+    authors: "Erratt KJ, Creed IF, **Freeman EC**, Westrick J, Trick CG, Birbeck J, Watson L, Zastepa A"
+
+  - title: "It Takes a Village: Using a Crowdsourced Approach to Investigate Organic Matter Composition in Global Rivers Through the Lens of Ecological Theory."
+    venue: "Frontiers in Water"
+    year: 2022
+    status: published
+    # NOTE: URL below matches the Core-satellite 2023 entry — likely a copy error
+    # inherited from the old site. Verify the correct "It Takes a Village" DOI.
+    url: "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2022.870453/full"
+    authors: "Borton MA, Collins SM, Graham EB, Garayburu-Caruso VA, Goldman AE, de Melo M, **Freeman EC**, & WHONDRS Crowdsourced Consortium"
+
+  - title: "Feasibility of Instance Segmentation of Phytoplankton Using Brightfield Microscopy & Deep Learning."
+    venue: "Journal of Computational Vision and Imaging Systems"
+    year: 2021
+    status: published
+    url: "https://openjournals.uwaterloo.ca/index.php/vsl/article/view/4868"
+    authors: "Deglint JL, Park JA, **Freeman EC**, Erratt KJ, Allaf MM, Wong A"
+
+  - title: "Global Maps of Soil Temperature."
+    venue: "Global Change Biology"
+    year: 2021
+    status: published
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/gcb.16060"
+    authors: "Lembrechts J, Van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, **Freeman EC**, & Hoffrén R"
+
+  - title: "Global Change-driven Effects on Dissolved Organic Matter Composition: Implications for Food Webs of Northern Lakes."
+    venue: "Global Change Biology"
+    year: 2018
+    status: published
+    url: "https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.14129"
+    authors: "Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others"
+
+  - title: "Microbes decrease organic matter persistence in lakes."
+    status: in_prep
+    authors: "Fonvielle JA, Sandor SR, **Freeman EC**, Dittmar T, Tanentzap AJ"
+
+  - title: "The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data."
+    venue: "Scientific Data"
+    status: in_prep
+    authors: "Beugnon, Cheneka et al. 2025"
+
+  - title: "Wildfires change dissolved organic matter in boreal headwater streams."
+    venue: "JGR Biogeosciences"
+    status: in_prep
+    authors: "Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ"
+
+  - title: "Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies."
+    venue: "Standard Operating Procedure 001-2016"
+    year: 2016
+    status: technical_report
+    authors: "Creed IF, Trick CG, **Freeman EC**, Oakes B"

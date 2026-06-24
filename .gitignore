@@ -1,0 +1,22 @@
+# Quarto build artifacts
+_site/
+.quarto/
+/.quarto/
+*.quarto_ipynb
+**/*.quarto_ipynb
+
+# Private assets — Canva screenshots from Drive (do NOT publish)
+assets/canva_screenshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local tmp
+*.tmp

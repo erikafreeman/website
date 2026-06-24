@@ -1,0 +1,69 @@
+---
+title: ""
+pagetitle: "Impact — Erika C. Freeman"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: {.section-label}
+Impact
+:::
+::: {.section-title}
+impact
+:::
+
+Research impact and reach across publications, funding, and collaboration.
+
+::: {.impact-grid}
+
+::: {.impact-block}
+### Research impact & reach
+::: {.impact-figure}
+—
+:::
+Citations, h-index, and top-venue placements.
+:::
+
+::: {.impact-block}
+### Research leadership
+::: {.impact-figure}
+—
+:::
+Grants, group, mentees, and working groups.
+:::
+
+::: {.impact-block}
+### Citation growth
+::: {.impact-figure}
+—
+:::
+Citation trajectory over time.
+:::
+
+::: {.impact-block}
+### Research pipeline
+::: {.impact-figure}
+5
+:::
+First-author papers currently in review or advanced preparation, from 23 papers total.
+:::
+
+::: {.impact-block}
+### Global network
+::: {.impact-figure}
+—
+:::
+Collaborators across Cambridge, Eawag (ETH Domain), IGB, ICBM Oldenburg, Canadian Forest Service, Saskatchewan, Trent, and the WHONDRS consortium.
+:::
+
+::: {.impact-block}
+### Public-facing work
+::: {.impact-figure}
+—
+:::
+Science Working Life essay (Ticking Clock, 2024), among Science's most-read essays of the year.
+:::
+
+:::

@@ -1,0 +1,90 @@
+---
+title: ""
+pagetitle: "Erika C. Freeman — Biogeochemist"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{=html}
+<section class="hero-split">
+  <div class="hero-photo">
+    <div class="hero-social">
+      <a href="mailto:freeman@igb-berlin.de" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://github.com/erikacfreeman" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/erikacfreeman/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://bsky.app/profile/erikacfreeman.bsky.social" aria-label="Bluesky"><i class="bi bi-cloud-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=E6WubOUAAAAJ" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+    </div>
+    <img src="assets/portrait.jpg" alt="Portrait of Erika C. Freeman">
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">From Molecular Analysis to Environmental Impact</div>
+    <h1 class="hero-name">
+      <span>Erika C.</span>
+      <span>Freeman</span>
+      <span class="title">Biogeochemist</span>
+    </h1>
+  </div>
+</section>
+```
+
+::: {.bio-section}
+::: {.bio-grid}
+::: {.bio-col}
+[Bio]{.bio-label}
+
+::: {.bio-text}
+I'm Erika, a researcher at the [Leibniz-Institut für Gewässerökologie und Binnenfischerei (IGB)](https://www.igb-berlin.de) in Berlin. I study how carbon moves through aquatic systems and what this means for human wellbeing. At the moment I spend most of my time pioneering *"the ecology of molecules"* — a new field bridging molecular biogeochemistry with ecosystem science.
+
+Before IGB I was a Postdoc at Eawag, the ETH Domain's Swiss Federal Institute of Aquatic Science and Technology, with [Prof. Dr. Florian Altermatt](https://www.altermattlab.ch), a mentor nonpareil. I completed my PhD in biogeochemistry (2024) in the University of Cambridge Plant Science Department as a [Gates Cambridge Fellow](https://www.gatescambridge.org/biography/14622/) where I was very fortunate to be advised by Andrew Tanentzap and Erik Emilson.
+
+I have also worked in the start-up space doing Life Cycle Assessments (Foodsteps Ltd, UK) and in Corporate Waste Management (Hydro One, Canada).
+
+When I'm not at the office, I like irresponsible amounts of running, climbing, and exploring the great out-the-door with my partner.
+:::
+:::
+
+::: {.bio-col .bio-list}
+[My passions]{.bio-label}
+
+Scientific rigour, ecosystem management, teamwork and collaboration, fun and comedy, women's rights and equity, mental and physical wellbeing, and community and kindness.
+:::
+
+::: {.bio-col .bio-list}
+[My expertise]{.bio-label}
+
+- Advanced analytical chemistry techniques
+- Environmental monitoring
+- Data analysis and interpretation
+- Logistics and fieldwork
+- Project management
+- Cross-sector collaboration
+:::
+:::
+
+```{=html}
+<div class="bio-decoration" aria-hidden="true">
+  <svg viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stylised caffeine skeleton: six-ring + five-ring fused -->
+    <polygon points="60,40 100,20 140,40 140,80 100,100 60,80"/>
+    <polygon points="140,40 180,30 200,60 180,90 140,80"/>
+    <line x1="60" y1="40" x2="40" y2="20"/>
+    <line x1="60" y1="80" x2="40" y2="100"/>
+    <line x1="100" y1="20" x2="100" y2="0"/>
+    <line x1="140" y1="80" x2="140" y2="100"/>
+    <line x1="200" y1="60" x2="220" y2="60"/>
+    <circle cx="40" cy="20" r="3" fill="currentColor"/>
+    <circle cx="40" cy="100" r="3" fill="currentColor"/>
+    <circle cx="100" cy="0" r="3" fill="currentColor"/>
+    <circle cx="140" cy="100" r="3" fill="currentColor"/>
+    <circle cx="220" cy="60" r="3" fill="currentColor"/>
+    <text x="55" y="46" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
+    <text x="135" y="46" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
+    <text x="95" y="106" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
+    <text x="175" y="66" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
+  </svg>
+</div>
+```
+:::

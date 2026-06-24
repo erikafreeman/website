@@ -1,0 +1,58 @@
+---
+title: ""
+pagetitle: "Contact — Erika C. Freeman"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: {.section-label}
+Contact
+:::
+::: {.section-title}
+contact
+:::
+
+::: {.contact-block}
+
+::: {.label}
+Email
+:::
+[freeman@igb-berlin.de](mailto:freeman@igb-berlin.de)
+
+::: {.label}
+Phone
+:::
++49 30 64181 600
+
+::: {.label}
+Office
+:::
+::: {}
+Leibniz-Institut für Gewässerökologie und Binnenfischerei (IGB)
+Müggelseedamm 310
+12587 Berlin, Germany
+:::
+
+::: {.label}
+Elsewhere
+:::
+[GitHub](https://github.com/erikacfreeman) &nbsp; · &nbsp;
+[ORCID](https://orcid.org/0000-0001-7161-6038) &nbsp; · &nbsp;
+[LinkedIn](https://www.linkedin.com/in/erikacfreeman/) &nbsp; · &nbsp;
+[Google Scholar](https://scholar.google.com/citations?user=E6WubOUAAAAJ) &nbsp; · &nbsp;
+[Bluesky](https://bsky.app/profile/erikacfreeman.bsky.social)
+
+::: {.label}
+CV
+:::
+[View CV](cv.html) &nbsp; · &nbsp;
+[Download PDF](cv.pdf)
+
+::: {.label}
+Prospective students & collaborators
+:::
+If you're interested in environmental metabolomics, the ecology of molecules, DOM chemistry, or how land use change rewrites freshwater carbon — please get in touch. A short note about your background and what excites you is the best way to start a conversation.
+
+:::
