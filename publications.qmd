@@ -80,7 +80,7 @@ Under review
 ::: {.pub}
 When molecules matter for ecosystem management.
 [Frontiers in Ecology and the Environment]{.pub-venue}
-[with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
+[with Florian Altermatt]{.pub-authors}
 :::
 
 ::: {.group-label}

@@ -75,6 +75,16 @@ first_author:
     status: in_prep
     coauthors: "Tanentzap AJ, Emilson EJS, Dittmar T"
 
+  - title: "The Ecology of Molecules."
+    venue: "American Naturalist"
+    status: under_review
+    coauthors: "Tianna Peller, François Keck, Florian Altermatt"
+
+  - title: "Rare Molecules as Community Architects."
+    venue: "Trends in Ecology and Evolution"
+    status: under_review
+    # sole-authored (no coauthors key -> renders "Sole author")
+
   - title: "When molecules matter for ecosystem management."
     venue: "Frontiers in Ecology and the Environment"
     status: under_review

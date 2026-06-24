@@ -78,7 +78,11 @@ def web_entry(p, kind):
     v = venue_line(p)
     if v:
         out.append("[" + v + "]{.pub-venue}")
-    authors = "with " + esc_stars(p.get("coauthors", "")) if kind == "first" else p.get("authors", "")
+    if kind == "first":
+        co = p.get("coauthors") or ""
+        authors = "with " + esc_stars(co) if co else "Sole author"
+    else:
+        authors = p.get("authors", "")
     out.append("[" + authors + "]{.pub-authors}")
     out.append(":::")
     return "\n".join(out)
@@ -139,7 +143,8 @@ def build_publications(first, contrib):
 
 def cv_cite(p, kind):
     if kind == "first":
-        authors = "Freeman EC, " + p.get("coauthors", "").replace("*", "")
+        co = (p.get("coauthors") or "").replace("*", "")
+        authors = "Freeman EC, " + co if co else "Freeman EC"
     else:
         authors = p.get("authors", "")
     title = p["title"].rstrip(".")
