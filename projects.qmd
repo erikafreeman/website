@@ -74,6 +74,20 @@ How carbon lost from soils into waters under land-use change rewires freshwater 
 
 ::: {.project-card}
 ::: {.project-figure}
+Carbon in practice
+:::
+::: {.project-body}
+::: {.project-title}
+Carbon in Practice
+:::
+::: {.project-desc}
+Keeping one foot in the real world of carbon. From life-cycle assessment at a food-tech start-up to corporate environmental work, I care about the seam where molecular science meets carbon accounting, MRV (measurement, reporting, verification), and real climate decisions.
+:::
+:::
+:::
+
+::: {.project-card}
+::: {.project-figure}
 A kinder academia
 :::
 ::: {.project-body}
