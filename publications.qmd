@@ -56,7 +56,7 @@ Published
 :::
 
 ::: {.pub}
-[Universal Microbial Processes Rework Dissolved Organic Matter along Environmental Gradients.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10762207/)
+[Universal Microbial Processes Rework Dissolved Organic Matter along Environmental Gradients.](https://www.nature.com/articles/s41467-023-44431-4)
 [Nature Communications · 2024]{.pub-venue}
 [with Emilson EJS, Braga L, Emilson C, Martineau C, Dittmar T, Goldhammer T, Singer G, Tanentzap AJ]{.pub-authors}
 :::
