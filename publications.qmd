@@ -26,6 +26,18 @@ Published
 :::
 
 ::: {.pub}
+[Logging Disrupts the Ecology of Molecules in Headwater Streams.](https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1)
+[PNAS · 2025]{.pub-venue}
+[with Emilson EJS, Webster K, Dittmar T, Tanentzap AJ]{.pub-authors}
+:::
+
+::: {.pub}
+[Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks.](https://www.researchsquare.com/article/rs-5565614/v1)
+[Scientific Reports · 2025]{.pub-venue}
+[with McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME]{.pub-authors}
+:::
+
+::: {.pub}
 [Ecosystem ecology needs an ecology of molecules.](https://www.sciencedirect.com/science/article/pii/S0169534724003148)
 [Trends in Ecology and Evolution · 2025]{.pub-venue}
 [with Tianna Peller, Florian Altermatt]{.pub-authors}
@@ -59,22 +71,6 @@ Published
 [Turning on the Tap: Demand for Resources as a Driver of Change in the Boreal Zone, Canada.](https://cdnsciencepub.com/doi/10.1139/er-2018-0064)
 [Environmental Reviews · 2019]{.pub-venue}
 [with Erdozain M\*, Daillaire CO\*, Teichert S, Creed IF, Nelson HW]{.pub-authors}
-:::
-
-::: {.group-label}
-Under review
-:::
-
-::: {.pub}
-[Logging Disrupts the Ecology of Molecules in Headwater Streams](https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1) *(preprint)*.
-[PNAS]{.pub-venue}
-[with Emilson EJS, Webster K, Dittmar T, Tanentzap AJ]{.pub-authors}
-:::
-
-::: {.pub}
-[Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks](https://www.researchsquare.com/article/rs-5565614/v1) *(preprint)*.
-[Scientific Reports]{.pub-venue}
-[with McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME]{.pub-authors}
 :::
 
 ::: {.group-label}

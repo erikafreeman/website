@@ -13,6 +13,22 @@
 
 first_author:
 
+  - title: "Logging Disrupts the Ecology of Molecules in Headwater Streams."
+    venue: "PNAS"
+    year: 2025
+    status: published
+    # TODO: swap preprint link for the published PNAS DOI when you have it
+    url: "https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1"
+    coauthors: "Emilson EJS, Webster K, Dittmar T, Tanentzap AJ"
+
+  - title: "Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks."
+    venue: "Scientific Reports"
+    year: 2025
+    status: published
+    # TODO: swap preprint link for the published Scientific Reports DOI when you have it
+    url: "https://www.researchsquare.com/article/rs-5565614/v1"
+    coauthors: "McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME"
+
   - title: "Ecosystem ecology needs an ecology of molecules."
     venue: "Trends in Ecology and Evolution"
     year: 2025
@@ -55,20 +71,6 @@ first_author:
     status: published
     url: "https://cdnsciencepub.com/doi/10.1139/er-2018-0064"
     coauthors: "Erdozain M*, Daillaire CO*, Teichert S, Creed IF, Nelson HW"
-
-  - title: "Logging Disrupts the Ecology of Molecules in Headwater Streams"
-    venue: "PNAS"
-    status: under_review
-    preprint: true
-    url: "https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1"
-    coauthors: "Emilson EJS, Webster K, Dittmar T, Tanentzap AJ"
-
-  - title: "Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks"
-    venue: "Scientific Reports"
-    status: under_review
-    preprint: true
-    url: "https://www.researchsquare.com/article/rs-5565614/v1"
-    coauthors: "McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME"
 
   - title: "Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests."
     venue: "JGR: Biogeosciences"
