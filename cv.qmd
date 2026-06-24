@@ -94,6 +94,10 @@ Full record below. First author: **6 published**, 5 in review or in preparation.
 - Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ. Wildfires change dissolved organic matter in boreal headwater streams. *JGR Biogeosciences*, in prep.
 - Creed IF, Trick CG, **Freeman EC**, Oakes B. Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies. Standard Operating Procedure 001-2016 (2016).
 
+## Protocols
+
+Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation, FlowCAM SOP); DOIs added as released.
+
 ## Invited talks (selected)
 
 - *If more UHR DOM data is the answer, what was the question?* — ASLO-SIL 2026, Montreal.

@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Protocols published / planned on protocols.io. Single source of truth for the
+# website Protocols page (protocols.qmd) and the CV Protocols section.
+# status: published | in_prep | planned
+# Add a `doi:` (full https URL) once a protocol is live; published ones with a
+# DOI also appear on the CV automatically.
+# Plan/roadmap: C:\Users\erika\Organise\Freeman_protocols_io_plan.md
+# ─────────────────────────────────────────────────────────────────────────────
+
+intro: "Methods from the lab, released openly on protocols.io as they are finalized — each with a citable DOI. DOIs appear here as protocols go live."
+
+cv_statement: "Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation, FlowCAM SOP); DOIs added as released."
+
+protocols:
+  - title: "DOM sampling and preservation for FT-ICR-MS"
+    status: planned
+    venue: "protocols.io (planned)"
+    note: "Amber-vial, three-quarter fill, anti-crack freezing; connector-leaching QA. Adapted from the DOMseasons protocol (Tanentzap lab)."
+
+  - title: "Solid-phase extraction (PPL) of dissolved organic matter"
+    status: planned
+    venue: "protocols.io (planned)"
+    note: "Acidification, PPL cartridge conditioning, elution and drying for FT-ICR-MS."
+
+  - title: "FT-ICR-MS acquisition and quality control for DOM"
+    status: planned
+    venue: "protocols.io (planned)"
+    note: "Instrument settings, calibration, blanks and QC for ultrahigh-resolution DOM."
+
+  - title: "Molecular formula assignment and data processing"
+    status: planned
+    venue: "protocols.io (planned)"
+    note: "Peak picking, formula assignment, filtering and QC of FT-ICR-MS spectra."
+
+  - title: "AI-assisted molecular and structural annotation pipeline"
+    status: planned
+    venue: "protocols.io (planned)"
+    note: "Machine-learning annotation of DOM spectra; sequenced to complement the structural-annotation paper and FreshDreaMS."
+
+  - title: "Phytoplankton analysis with the FlowCAM"
+    status: in_prep
+    venue: "protocols.io (from SOP 001-2016)"
+    note: "Existing SOP (Creed, Trick, Freeman, Oakes, 2016) to be re-released with a DOI."
