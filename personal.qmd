@@ -24,24 +24,38 @@ The things I make and chase when I'm not at the bench.
 :::
 ::: {.project-body}
 ::: {.project-title}
-Outside
+[Adventure](adventure.html)
 :::
 ::: {.project-desc}
-Running, climbing, botanising, and exploring the great out-the-door. Adventure and travel logs from trails, ridgelines, and wherever the next race or long way round leads.
+Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. [Read the logs →](adventure.html)
 :::
 :::
 :::
 
 ::: {.project-card}
 ::: {.project-figure}
-Table of Contents
+Travel
 :::
 ::: {.project-body}
 ::: {.project-title}
-Table of Contents
+[Travel](travel.html)
 :::
 ::: {.project-desc}
-A recurring themed dinner series with Juli: each edition takes one intellectual theme and teaches it across a multi-course, interactive meal of readings, tastings, and cooking together. CITR·US is the citrus strand.
+Field trips, conferences, and a deep love of Argentina. [See the logs →](travel.html)
+:::
+:::
+:::
+
+::: {.project-card}
+::: {.project-figure}
+![](assets/projects/citrus.svg)
+:::
+::: {.project-body}
+::: {.project-title}
+[Table of Contents](dinners.html)
+:::
+::: {.project-desc}
+A themed dinner series with Juli. CITR·US is the citrus strand. [See the editions →](dinners.html)
 :::
 :::
 :::

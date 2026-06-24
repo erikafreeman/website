@@ -1,0 +1,31 @@
+---
+title: ""
+pagetitle: "Travel — Erika C. Freeman"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: {.section-label}
+Personal projects
+:::
+::: {.section-title}
+travel
+:::
+
+Fieldwork takes me to lakes and rivers; the rest is curiosity. A deep and standing love of Argentina runs through it all. Travel logs and photos will collect here.
+
+::: {.log}
+
+::: {.log-entry}
+### Argentina
+[A yearly return]{.log-meta}
+The trip I look forward to most. Notes and photographs to come.
+:::
+
+:::
+
+::: {.personal-link}
+*More logs coming soon.* &nbsp; · &nbsp; [← Back to personal projects](personal.html)
+:::

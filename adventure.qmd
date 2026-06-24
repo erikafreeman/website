@@ -1,0 +1,31 @@
+---
+title: ""
+pagetitle: "Adventure — Erika C. Freeman"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: {.section-label}
+Personal projects
+:::
+::: {.section-title}
+adventure
+:::
+
+Running, climbing, botanising, and as much time as possible out the door. Right now that means building toward a sub-3:30 marathon. Routes, races, and trail notes will collect here.
+
+::: {.log}
+
+::: {.log-entry}
+### The road to sub-3:30
+[In training]{.log-meta}
+Base miles, long runs, and the slow work of chasing a sub-3:30 marathon. Training notes and the race report will land here.
+:::
+
+:::
+
+::: {.personal-link}
+*More logs coming soon.* &nbsp; · &nbsp; [← Back to personal projects](personal.html)
+:::
