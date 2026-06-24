@@ -100,18 +100,8 @@ Writing about and working to change the conditions of academic life, from the Sc
 :::
 :::
 
-::: {.project-card}
-::: {.project-figure}
-![](assets/projects/outside.jpg)
-:::
-::: {.project-body}
-::: {.project-title}
-Outside
-:::
-::: {.project-desc}
-Running, climbing, botanising. The other half of why this work matters.
-:::
-:::
 :::
 
+::: {.personal-link}
+Off the clock? [Personal projects →](personal.html)
 :::

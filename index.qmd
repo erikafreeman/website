@@ -22,6 +22,7 @@ format:
   <div class="hero-content">
     <div class="hero-eyebrow">From Molecular Analysis to Environmental Impact</div>
     <h1 class="hero-name">
+      <span class="hero-dr">Dr.</span>
       <span>Erika C.</span>
       <span>Freeman</span>
       <span class="title">Carbon Biogeochemist</span>

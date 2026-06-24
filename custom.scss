@@ -181,6 +181,13 @@ main, .page-columns, #quarto-content {
   margin-top: 0.7rem;
   text-transform: none;
 }
+.hero-name span.hero-dr {
+  font-size: clamp(0.95rem, 1.5vw, 1.3rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: $accent;
+  margin-bottom: 0.2rem;
+}
 
 /* Social icons cluster, top-left over photo */
 .hero-social {
@@ -343,6 +350,14 @@ main, .page-columns, #quarto-content {
   filter: saturate(1.05) contrast(1.04) brightness(1);
 }
 .project-card:hover .project-figure::after { opacity: 0.25; }
+.personal-link {
+  margin: 0.5rem 0 4rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.95rem;
+  color: $mute;
+}
+.personal-link a { color: $accent; font-weight: 600; text-decoration: none; }
+.personal-link a:hover { text-decoration: underline; }
 .project-card:hover .project-title { color: $accent; }
 .project-body { padding: 1.1rem 0.2rem 1.5rem; }
 .project-title {

@@ -1,0 +1,53 @@
+---
+title: ""
+pagetitle: "Personal projects — Erika C. Freeman"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+::: {.section-label}
+Personal projects
+:::
+::: {.section-title}
+off the clock
+:::
+
+The things I make and chase when I'm not at the bench.
+
+::: {.projects-grid}
+
+::: {.project-card}
+::: {.project-figure}
+![](assets/projects/outside.jpg)
+:::
+::: {.project-body}
+::: {.project-title}
+Outside
+:::
+::: {.project-desc}
+Running, climbing, botanising, and exploring the great out-the-door. Adventure and travel logs from trails, ridgelines, and wherever the next race or long way round leads.
+:::
+:::
+:::
+
+::: {.project-card}
+::: {.project-figure}
+CITR·US
+:::
+::: {.project-body}
+::: {.project-title}
+CITR·US
+:::
+::: {.project-desc}
+A recurring collaborative dinner series that turns citrus into a themed, academic, multi-course evening, part of the Table of Contents supper club. Recipes, readings, and tasting experiments from each edition.
+:::
+:::
+:::
+
+:::
+
+::: {.personal-link}
+[← Back to projects](projects.html)
+:::
