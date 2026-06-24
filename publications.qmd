@@ -85,7 +85,6 @@ Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in 
 
 ::: {.pub}
 A cheat sheet for the environmental metabolomics revolution.
-[for Science]{.pub-venue}
 [with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
 :::
 
