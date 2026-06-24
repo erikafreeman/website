@@ -74,6 +74,16 @@ Published
 :::
 
 ::: {.group-label}
+Under review
+:::
+
+::: {.pub}
+When molecules matter for ecosystem management.
+[Frontiers in Ecology and the Environment]{.pub-venue}
+[with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
+:::
+
+::: {.group-label}
 In advanced preparation
 :::
 
@@ -81,11 +91,6 @@ In advanced preparation
 Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests.
 [for JGR: Biogeosciences]{.pub-venue}
 [with Tanentzap AJ, Emilson EJS, Dittmar T]{.pub-authors}
-:::
-
-::: {.pub}
-A cheat sheet for the environmental metabolomics revolution.
-[with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
 :::
 
 ::: {.pub}

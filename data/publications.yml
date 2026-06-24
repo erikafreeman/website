@@ -75,8 +75,9 @@ first_author:
     status: in_prep
     coauthors: "Tanentzap AJ, Emilson EJS, Dittmar T"
 
-  - title: "A cheat sheet for the environmental metabolomics revolution."
-    status: in_prep
+  - title: "When molecules matter for ecosystem management."
+    venue: "Frontiers in Ecology and the Environment"
+    status: under_review
     coauthors: "Tianna Peller, François Keck, Florian Altermatt"
 
   - title: "Leveraging community ecology to understand dissolved organic matter."
