@@ -19,7 +19,7 @@ format:
 
 [Junior Group Leader (Tenure Track), IGB Berlin]{.cv-tagline}
 
-[erika.freeman@igb-berlin.de · ORCID 0000-0001-7161-6038 · Google Scholar E6WubOUAAAAJ · erikacfreeman.com · Swiss & Canadian citizen · English (native), German (fluent), French (basic)]{.cv-meta}
+[erika.freeman@igb-berlin.de · ORCID 0000-0001-7161-6038 · Google Scholar E6WubOUAAAAJ · erikacfreeman.com · Swiss & Canadian citizen · English (native), German (fluent), French (basic), Spanish (basic)]{.cv-meta}
 
 ::: {.content-visible when-format="html"}
 [Download PDF](cv.pdf){.cv-download}
