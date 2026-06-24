@@ -66,24 +66,47 @@ Scientific rigour, ecosystem management, teamwork and collaboration, fun and com
 
 ```{=html}
 <div class="bio-decoration" aria-hidden="true">
-  <svg viewBox="0 0 240 160" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Stylised caffeine skeleton: six-ring + five-ring fused -->
-    <polygon points="60,40 100,20 140,40 140,80 100,100 60,80"/>
-    <polygon points="140,40 180,30 200,60 180,90 140,80"/>
-    <line x1="60" y1="40" x2="40" y2="20"/>
-    <line x1="60" y1="80" x2="40" y2="100"/>
-    <line x1="100" y1="20" x2="100" y2="0"/>
-    <line x1="140" y1="80" x2="140" y2="100"/>
-    <line x1="200" y1="60" x2="220" y2="60"/>
-    <circle cx="40" cy="20" r="3" fill="currentColor"/>
-    <circle cx="40" cy="100" r="3" fill="currentColor"/>
-    <circle cx="100" cy="0" r="3" fill="currentColor"/>
-    <circle cx="140" cy="100" r="3" fill="currentColor"/>
-    <circle cx="220" cy="60" r="3" fill="currentColor"/>
-    <text x="55" y="46" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
-    <text x="135" y="46" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
-    <text x="95" y="106" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
-    <text x="175" y="66" font-family="Inter,sans-serif" font-size="9" fill="currentColor" stroke="none">N</text>
+  <svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <title>Caffeine, 1,3,7-trimethylpurine-2,6-dione</title>
+    <style>
+      .bond { stroke: currentColor; stroke-width: 5.6; stroke-linecap: round; stroke-linejoin: round; }
+      .double { stroke: currentColor; stroke-width: 3.8; stroke-linecap: round; stroke-linejoin: round; }
+      .atom { fill: currentColor; font-family: Inter, Arial, sans-serif; font-size: 31px; font-weight: 650; text-anchor: middle; dominant-baseline: middle; }
+      .small { fill: currentColor; font-family: Inter, Arial, sans-serif; font-size: 27px; font-weight: 650; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+    <g transform="translate(3 0)">
+      <line class="bond" x1="250" y1="143" x2="330" y2="95"/>
+      <line class="bond" x1="330" y1="95" x2="430" y2="155"/>
+      <line class="bond" x1="430" y1="155" x2="430" y2="285"/>
+      <line class="bond" x1="430" y1="285" x2="350" y2="333"/>
+      <line class="bond" x1="310" y1="333" x2="230" y2="285"/>
+      <line class="bond" x1="230" y1="285" x2="230" y2="177"/>
+      <line class="bond" x1="430" y1="155" x2="515" y2="131"/>
+      <line class="bond" x1="549" y1="144" x2="612" y2="225"/>
+      <line class="bond" x1="612" y1="225" x2="548" y2="309"/>
+      <line class="bond" x1="516" y1="317" x2="430" y2="285"/>
+      <line class="double" x1="349" y1="118" x2="414" y2="157"/>
+      <line class="double" x1="413" y1="274" x2="413" y2="171"/>
+      <line class="double" x1="558" y1="157" x2="594" y2="204"/>
+      <line class="double" x1="509" y1="302" x2="450" y2="281"/>
+      <line class="bond" x1="330" y1="95" x2="330" y2="42"/>
+      <line class="double" x1="342" y1="101" x2="342" y2="49"/>
+      <text class="atom" x="317" y="33">O</text>
+      <line class="bond" x1="230" y1="285" x2="172" y2="318"/>
+      <line class="double" x1="224" y1="270" x2="166" y2="303"/>
+      <text class="atom" x="126" y="336">O</text>
+      <line class="bond" x1="210" y1="143" x2="162" y2="116"/>
+      <text class="small" x="105" y="105">CH3</text>
+      <line class="bond" x1="330" y1="365" x2="330" y2="410"/>
+      <text class="small" x="330" y="444">CH3</text>
+      <line class="bond" x1="543" y1="106" x2="560" y2="62"/>
+      <text class="small" x="587" y="48">CH3</text>
+      <text class="atom" x="230" y="155">N</text>
+      <text class="atom" x="330" y="345">N</text>
+      <text class="atom" x="535" y="125">N</text>
+      <text class="atom" x="535" y="325">N</text>
+      <text class="small" x="640" y="225">H</text>
+    </g>
   </svg>
 </div>
 ```

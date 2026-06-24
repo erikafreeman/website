@@ -18,7 +18,7 @@ Projects
 
 ::: {.project-card}
 ::: {.project-figure}
-An ecology of molecules
+![](assets/projects/ecology-of-molecules.jpg)
 :::
 ::: {.project-body}
 ::: {.project-title}
@@ -32,7 +32,7 @@ A new field bridging molecular biogeochemistry with ecosystem science. Applying 
 
 ::: {.project-card}
 ::: {.project-figure}
-Predictive ecology
+![](assets/projects/predictive-ecology.jpg)
 :::
 ::: {.project-body}
 ::: {.project-title}
@@ -46,7 +46,7 @@ Moving freshwater science from describing ecosystems to forecasting them. I co-l
 
 ::: {.project-card}
 ::: {.project-figure}
-Precision biogeochemistry
+![](assets/projects/precision-biogeochemistry.jpg)
 :::
 ::: {.project-body}
 ::: {.project-title}
@@ -74,7 +74,7 @@ How carbon lost from soils into waters under land-use change rewires freshwater 
 
 ::: {.project-card}
 ::: {.project-figure}
-Carbon in practice
+![](assets/projects/carbon-in-practice.jpg)
 :::
 ::: {.project-body}
 ::: {.project-title}
@@ -88,7 +88,7 @@ Keeping one foot in the real world of carbon. From life-cycle assessment at a fo
 
 ::: {.project-card}
 ::: {.project-figure}
-A kinder academia
+![](assets/projects/kinder-academia.jpg)
 :::
 ::: {.project-body}
 ::: {.project-title}
