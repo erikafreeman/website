@@ -90,7 +90,7 @@ A cheat sheet for the environmental metabolomics revolution.
 
 ::: {.pub}
 Leveraging community ecology to understand dissolved organic matter.
-[for Frontiers in Ecology and Evolution]{.pub-venue}
+[for Frontiers in Ecology and the Environment]{.pub-venue}
 [with Florian Altermatt, Roman Alter]{.pub-authors}
 :::
 
@@ -105,6 +105,12 @@ Leveraging community ecology to understand dissolved organic matter.
 
 ::: {.group-label}
 Published
+:::
+
+::: {.pub}
+[Wildfires Change Summertime Dissolved Organic Matter in Boreal Headwater Streams.](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025JG008980)
+[JGR Biogeosciences · 2025]{.pub-venue}
+[Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ]{.pub-authors}
 :::
 
 ::: {.pub}
@@ -153,12 +159,6 @@ Published
 [Global Change-driven Effects on Dissolved Organic Matter Composition: Implications for Food Webs of Northern Lakes.](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.14129)
 [Global Change Biology · 2018]{.pub-venue}
 [Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others]{.pub-authors}
-:::
-
-::: {.pub}
-Wildfires change dissolved organic matter in boreal headwater streams.
-[JGR Biogeosciences]{.pub-venue}
-[Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ]{.pub-authors}
 :::
 
 ::: {.group-label}
