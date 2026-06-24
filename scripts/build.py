@@ -145,9 +145,19 @@ def cv_cite(p, kind):
     title = p["title"].rstrip(".")
     venue, year, status = p.get("venue"), p.get("year"), p.get("status")
     if status == "published":
-        tail = f"*{venue}* ({year})." if venue else f"({year})."
+        if venue and year:
+            tail = f"*{venue}* ({year})."
+        elif venue:
+            tail = f"*{venue}*."
+        else:
+            tail = f"({year})." if year else ""
     elif status == "technical_report":
-        tail = f"{venue} ({year})." if venue else f"({year})."
+        if venue and year:
+            tail = f"{venue} ({year})."
+        elif venue:
+            tail = f"{venue}."
+        else:
+            tail = f"({year})." if year else ""
     elif status == "under_review":
         tail = f"*{venue}*, in review." if venue else "In review."
     else:

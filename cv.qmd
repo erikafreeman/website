@@ -63,7 +63,7 @@ format:
 
 ## Publications
 
-Full record below. First author: **8 published**, 3 in review or in preparation. Co-author: **8 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
+Full record below. First author: **8 published**, 3 in review or in preparation. Co-author: **9 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
 
 **First-author**
 
@@ -89,9 +89,8 @@ Full record below. First author: **8 published**, 3 in review or in preparation.
 - Deglint JL, Park JA, **Freeman EC**, Erratt KJ, Allaf MM, Wong A. Feasibility of Instance Segmentation of Phytoplankton Using Brightfield Microscopy & Deep Learning. *Journal of Computational Vision and Imaging Systems* (2021).
 - Lembrechts J, Van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, **Freeman EC**, & Hoffrén R. Global Maps of Soil Temperature. *Global Change Biology* (2021).
 - Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others. Global Change-driven Effects on Dissolved Organic Matter Composition: Implications for Food Webs of Northern Lakes. *Global Change Biology* (2018).
-- Fonvielle JA, Sandor SR, **Freeman EC**, Dittmar T, Tanentzap AJ. Microbes decrease organic matter persistence in lakes. In prep.
 - Beugnon, Cheneka et al. 2025. The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data. *Scientific Data*, in prep.
-- Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ. Wildfires change dissolved organic matter in boreal headwater streams. *JGR Biogeosciences*, in prep.
+- Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ. Wildfires change dissolved organic matter in boreal headwater streams. *JGR Biogeosciences*.
 - Creed IF, Trick CG, **Freeman EC**, Oakes B. Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies. Standard Operating Procedure 001-2016 (2016).
 
 ## Protocols

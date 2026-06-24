@@ -102,7 +102,7 @@ Leveraging community ecology to understand dissolved organic matter.
 :::
 
 ::: {.pubs-col}
-## Contributing-author publications (12)
+## Contributing-author publications (11)
 
 ::: {.group-label}
 Published
@@ -156,25 +156,20 @@ Published
 [Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others]{.pub-authors}
 :::
 
-::: {.group-label}
-In advanced preparation
+::: {.pub}
+Wildfires change dissolved organic matter in boreal headwater streams.
+[JGR Biogeosciences]{.pub-venue}
+[Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ]{.pub-authors}
 :::
 
-::: {.pub}
-Microbes decrease organic matter persistence in lakes.
-[Fonvielle JA, Sandor SR, **Freeman EC**, Dittmar T, Tanentzap AJ]{.pub-authors}
+::: {.group-label}
+In advanced preparation
 :::
 
 ::: {.pub}
 The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data.
 [for Scientific Data]{.pub-venue}
 [Beugnon, Cheneka et al. 2025]{.pub-authors}
-:::
-
-::: {.pub}
-Wildfires change dissolved organic matter in boreal headwater streams.
-[for JGR Biogeosciences]{.pub-venue}
-[Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ]{.pub-authors}
 :::
 
 ::: {.group-label}

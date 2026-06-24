@@ -149,10 +149,6 @@ contributing:
     url: "https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.14129"
     authors: "Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others"
 
-  - title: "Microbes decrease organic matter persistence in lakes."
-    status: in_prep
-    authors: "Fonvielle JA, Sandor SR, **Freeman EC**, Dittmar T, Tanentzap AJ"
-
   - title: "The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data."
     venue: "Scientific Data"
     status: in_prep
@@ -160,7 +156,8 @@ contributing:
 
   - title: "Wildfires change dissolved organic matter in boreal headwater streams."
     venue: "JGR Biogeosciences"
-    status: in_prep
+    status: published
+    # TODO: add publication year + published DOI/URL
     authors: "Matula E, Emilson EJS, Smenderovac E, Fonvielle J, **Freeman EC**, Tanentzap AJ"
 
   - title: "Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies."
