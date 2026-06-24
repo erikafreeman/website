@@ -17,16 +17,14 @@ first_author:
     venue: "PNAS"
     year: 2025
     status: published
-    # TODO: swap preprint link for the published PNAS DOI when you have it
-    url: "https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1"
+    url: "https://www.pnas.org/doi/10.1073/pnas.2409104122"
     coauthors: "Emilson EJS, Webster K, Dittmar T, Tanentzap AJ"
 
   - title: "Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks."
     venue: "Scientific Reports"
     year: 2025
     status: published
-    # TODO: swap preprint link for the published Scientific Reports DOI when you have it
-    url: "https://www.researchsquare.com/article/rs-5565614/v1"
+    url: "https://www.nature.com/articles/s41598-025-12835-5"
     coauthors: "McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME"
 
   - title: "Ecosystem ecology needs an ecology of molecules."

@@ -26,13 +26,13 @@ Published
 :::
 
 ::: {.pub}
-[Logging Disrupts the Ecology of Molecules in Headwater Streams.](https://www.biorxiv.org/content/10.1101/2023.03.07.531469v1)
+[Logging Disrupts the Ecology of Molecules in Headwater Streams.](https://www.pnas.org/doi/10.1073/pnas.2409104122)
 [PNAS · 2025]{.pub-venue}
 [with Emilson EJS, Webster K, Dittmar T, Tanentzap AJ]{.pub-authors}
 :::
 
 ::: {.pub}
-[Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks.](https://www.researchsquare.com/article/rs-5565614/v1)
+[Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks.](https://www.nature.com/articles/s41598-025-12835-5)
 [Scientific Reports · 2025]{.pub-venue}
 [with McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME]{.pub-authors}
 :::
