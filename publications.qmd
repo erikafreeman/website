@@ -19,7 +19,7 @@ publications
 ::: {.pubs-cols}
 
 ::: {.pubs-col}
-## First-author publications (13)
+## First-author publications (17)
 
 ::: {.group-label}
 Published
@@ -40,13 +40,13 @@ Published
 ::: {.pub}
 [Ecosystem ecology needs an ecology of molecules.](https://www.sciencedirect.com/science/article/pii/S0169534724003148)
 [Trends in Ecology and Evolution · 2025]{.pub-venue}
-[with Tianna Peller, Florian Altermatt]{.pub-authors}
+[with Peller T, Altermatt F]{.pub-authors}
 :::
 
 ::: {.pub}
-[Ticking Clock.](https://www.science.org/content/article/women-academia-having-children-can-feel-impossible-talking-about-it-makes-us-feel-less) &nbsp; *[[Most popular Working Life essays of 2024](https://www.science.org/content/article/perfecting-academic-writing-facing-fraud-science-s-top-personal-essays-year)]*
+[Racing the Clock.](https://www.science.org/content/article/women-academia-having-children-can-feel-impossible-talking-about-it-makes-us-feel-less) &nbsp; *[[Most popular Working Life essays of 2024](https://www.science.org/content/article/perfecting-academic-writing-facing-fraud-science-s-top-personal-essays-year)]*
 [Science · 2024]{.pub-venue}
-[with Cecilia Padilla-Iglesias\*]{.pub-authors}
+[with Padilla-Iglesias C\*]{.pub-authors}
 :::
 
 ::: {.pub}
@@ -64,7 +64,7 @@ Published
 ::: {.pub}
 [Global Changes May Be Promoting a Rise in Select Cyanobacteria in Nutrient-poor Northern Lakes.](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.15189)
 [Global Change Biology · 2020]{.pub-venue}
-[with Jones B, Bergstrom AK, Creed IF]{.pub-authors}
+[with Jones B, Bergström AK, Creed IF]{.pub-authors}
 :::
 
 ::: {.pub}
@@ -80,7 +80,7 @@ Under review
 ::: {.pub}
 The Ecology of Molecules.
 [American Naturalist]{.pub-venue}
-[with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
+[with Peller T, Keck F, Altermatt F]{.pub-authors}
 :::
 
 ::: {.pub}
@@ -92,11 +92,29 @@ Rare Molecules as Community Architects.
 ::: {.pub}
 When molecules matter for ecosystem management.
 [Frontiers in Ecology and the Environment]{.pub-venue}
-[with Florian Altermatt]{.pub-authors}
+[with Altermatt F]{.pub-authors}
 :::
 
 ::: {.group-label}
 In advanced preparation
+:::
+
+::: {.pub}
+What precision medicine can teach biogeochemistry.
+[for Nature Reviews Earth & Environment]{.pub-venue}
+[Sole author]{.pub-authors}
+:::
+
+::: {.pub}
+The 0.52% problem: chemical surveillance and planetary health.
+[for Lancet Planetary Health]{.pub-venue}
+[Sole author]{.pub-authors}
+:::
+
+::: {.pub}
+Closing the freshwater verification gap.
+[for Freshwater Ecology / L&O Letters]{.pub-venue}
+[with Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M]{.pub-authors}
 :::
 
 ::: {.pub}
@@ -108,7 +126,7 @@ Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in 
 ::: {.pub}
 Leveraging community ecology to understand dissolved organic matter.
 [for Frontiers in Ecology and the Environment]{.pub-venue}
-[with Florian Altermatt, Roman Alter]{.pub-authors}
+[with Altermatt F, Alter R]{.pub-authors}
 :::
 
 ::: {style="font-size: 0.78rem; color: #a8a8a8; margin-top: 1.5rem;"}
@@ -131,13 +149,13 @@ Published
 :::
 
 ::: {.pub}
-[Making Waves: Deep Cyanobacteria Layers Pose a "Known Unknown" Risk to Water Security.](https://pubs.acs.org/doi/10.1021/acs.est.2c06928)
+[Missing the Middle: Deep Cyanobacteria Layers Pose a "Known Unknown" Risk to Water Security.](https://doi.org/10.1016/j.wasec.2023.100142)
 [Water Security · 2023]{.pub-venue}
 [Erratt KJ, Creed IF, **Freeman EC**, Trick C]{.pub-authors}
 :::
 
 ::: {.pub}
-[Exploring Global River Corridor OM Chemistry through the Ecological Concept of Core-satellite Species.](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2022.870453/full)
+[Applying the Core-Satellite Species Concept: Characteristics of Rare and Common Riverine Dissolved Organic Matter.](https://doi.org/10.3389/frwa.2023.1156042)
 [Frontiers in Water · 2023]{.pub-venue}
 [Stadler M, de Melo M, Garayburu-Caruso V, **Freeman EC**, Bice K, Mateus-Barros E, Lu Y, Barnard M, Cheng S, Dwivedi D, Tanentzap A, Meile C]{.pub-authors}
 :::
@@ -175,7 +193,7 @@ Published
 ::: {.pub}
 [Global Change-driven Effects on Dissolved Organic Matter Composition: Implications for Food Webs of Northern Lakes.](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.14129)
 [Global Change Biology · 2018]{.pub-venue}
-[Creed IF, Bergstrom AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others]{.pub-authors}
+[Creed IF, Bergström AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others]{.pub-authors}
 :::
 
 ::: {.group-label}
