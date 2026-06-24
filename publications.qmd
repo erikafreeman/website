@@ -19,7 +19,7 @@ publications
 ::: {.pubs-cols}
 
 ::: {.pubs-col}
-## First-author publications (11)
+## First-author publications (13)
 
 ::: {.group-label}
 Published
@@ -75,6 +75,18 @@ Published
 
 ::: {.group-label}
 Under review
+:::
+
+::: {.pub}
+The Ecology of Molecules.
+[American Naturalist]{.pub-venue}
+[with Tianna Peller, François Keck, Florian Altermatt]{.pub-authors}
+:::
+
+::: {.pub}
+Rare Molecules as Community Architects.
+[Trends in Ecology and Evolution]{.pub-venue}
+[Sole author]{.pub-authors}
 :::
 
 ::: {.pub}
