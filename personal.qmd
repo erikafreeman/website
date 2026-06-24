@@ -34,14 +34,14 @@ Running, climbing, botanising, and exploring the great out-the-door. Adventure a
 
 ::: {.project-card}
 ::: {.project-figure}
-CITR·US
+Table of Contents
 :::
 ::: {.project-body}
 ::: {.project-title}
-CITR·US
+Table of Contents
 :::
 ::: {.project-desc}
-A recurring collaborative dinner series that turns citrus into a themed, academic, multi-course evening, part of the Table of Contents supper club. Recipes, readings, and tasting experiments from each edition.
+A recurring themed dinner series with Juli: each edition takes one intellectual theme and teaches it across a multi-course, interactive meal of readings, tastings, and cooking together. CITR·US is the citrus strand.
 :::
 :::
 :::
