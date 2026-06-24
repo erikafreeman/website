@@ -116,7 +116,7 @@ first_author:
     coauthors: "Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M"
     # cross-IGB Perspective; re-homing after Nature Water desk-decline
 
-  - title: "Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests."
+  - title: "Detecting forest harvest through DOM fluorescence."
     venue: "JGR: Biogeosciences"
     status: in_prep
     cv_feature: true

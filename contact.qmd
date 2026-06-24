@@ -19,12 +19,7 @@ contact
 ::: {.label}
 Email
 :::
-[freeman@igb-berlin.de](mailto:freeman@igb-berlin.de)
-
-::: {.label}
-Phone
-:::
-+49 30 64181 600
+[erika.freeman@igb-berlin.de](mailto:erika.freeman@igb-berlin.de)
 
 ::: {.label}
 Office

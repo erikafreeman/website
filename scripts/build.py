@@ -163,8 +163,10 @@ def cv_cite(p, kind):
             tail = f"{venue}."
         else:
             tail = f"({year})." if year else ""
-    elif status == "under_review":
-        tail = f"*{venue}*, in review." if venue else "In review."
+    elif status in ("under_review", "commentary", "in_prep"):
+        default = {"under_review": "in review", "commentary": "submitted", "in_prep": "in prep"}[status]
+        d = p.get("status_detail") or default
+        tail = f"*{venue}*, {d}." if venue else f"{d[:1].upper()}{d[1:]}."
     else:
         tail = f"*{venue}*, in prep." if venue else "In prep."
     return f"- {authors}. {title}. {tail}"
@@ -332,13 +334,16 @@ def main():
     pubs = load("publications.yml")
     cv = load("cv.yml")
     protocols = load("protocols.yml")
-    # pack_only entries belong to the tenure pack, not the public website.
-    first = [p for p in pubs.get("first_author", []) if not p.get("pack_only")]
-    contrib = [p for p in pubs.get("contributing", []) if not p.get("pack_only")]
-    build_publications(first, contrib)
+    first_all = pubs.get("first_author", [])
+    contrib_all = pubs.get("contributing", [])
+    # pack_only entries stay off the public Publications PAGE, but the CV lists
+    # the full pipeline (in-progress / in-review / commentary work included).
+    first_pub = [p for p in first_all if not p.get("pack_only")]
+    contrib_pub = [p for p in contrib_all if not p.get("pack_only")]
+    build_publications(first_pub, contrib_pub)
     build_protocols(protocols)
-    build_cv(cv, first, contrib, protocols)
-    print(f"[build] publications.qmd: {len(first)} first-author, {len(contrib)} contributing")
+    build_cv(cv, first_all, contrib_all, protocols)
+    print(f"[build] publications.qmd: {len(first_pub)} first-author, {len(contrib_pub)} contributing (public)")
     print(f"[build] protocols.qmd: {len(protocols.get('protocols', []))} protocols")
     print("[build] cv.qmd: html + typst")
 

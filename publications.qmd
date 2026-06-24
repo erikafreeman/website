@@ -100,7 +100,7 @@ In advanced preparation
 :::
 
 ::: {.pub}
-Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests.
+Detecting forest harvest through DOM fluorescence.
 [for JGR: Biogeosciences]{.pub-venue}
 [with Tanentzap AJ, Emilson EJS, Dittmar T]{.pub-authors}
 :::
