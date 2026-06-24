@@ -332,8 +332,9 @@ def main():
     pubs = load("publications.yml")
     cv = load("cv.yml")
     protocols = load("protocols.yml")
-    first = pubs.get("first_author", [])
-    contrib = pubs.get("contributing", [])
+    # pack_only entries belong to the tenure pack, not the public website.
+    first = [p for p in pubs.get("first_author", []) if not p.get("pack_only")]
+    contrib = [p for p in pubs.get("contributing", []) if not p.get("pack_only")]
     build_publications(first, contrib)
     build_protocols(protocols)
     build_cv(cv, first, contrib, protocols)

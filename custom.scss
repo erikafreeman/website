@@ -124,7 +124,7 @@ main, .page-columns, #quarto-content {
 /* === Hero (home) — split layout with grayscale photo === */
 .hero-split {
   display: grid;
-  grid-template-columns: 1.05fr 1fr;
+  grid-template-columns: 1fr 1.05fr;
   gap: 0;
   min-height: calc(100vh - 80px);
   margin: -1px 0 0;  // align hero with page content gutters
@@ -136,6 +136,7 @@ main, .page-columns, #quarto-content {
   position: relative;
   overflow: hidden;
   min-height: 380px;
+  order: 2;
 }
 .hero-photo img {
   width: 100%;
@@ -151,6 +152,7 @@ main, .page-columns, #quarto-content {
   flex-direction: column;
   justify-content: center;
   background: $bg;
+  order: 1;
 }
 .hero-eyebrow {
   font-family: $font-family-sans-serif;
@@ -209,7 +211,7 @@ main, .page-columns, #quarto-content {
 
 @media (max-width: 1024px) {
   .hero-split { grid-template-columns: 1fr; margin: 0 -1.5rem; min-height: auto; }
-  .hero-photo { min-height: 380px; aspect-ratio: 4/3; }
+  .hero-photo { min-height: 380px; aspect-ratio: 4/3; order: -1; }
   .hero-content { padding: 3rem 2rem; }
 }
 

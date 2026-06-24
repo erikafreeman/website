@@ -19,7 +19,7 @@ format:
 
 [Junior Group Leader (Tenure Track), IGB Berlin]{.cv-tagline}
 
-[erika.freeman@igb-berlin.de · ORCID 0000-0001-7161-6038 · Google Scholar E6WubOUAAAAJ · erikacfreeman.com · Swiss & Canadian citizen · English (native), German (fluent), French (basic), Spanish (basic)]{.cv-meta}
+[erika.freeman@igb-berlin.de · ORCID 0000-0001-7161-6038 · Google Scholar E6WubOUAAAAJ · erikacfreeman.com · Swiss & Canadian citizen · English (native), German (intermediate), French (basic), Spanish (basic)]{.cv-meta}
 
 ::: {.content-visible when-format="html"}
 [Download PDF](cv.pdf){.cv-download}
@@ -63,7 +63,7 @@ format:
 
 ## Publications
 
-Full record below. First author: **8 published**, 9 in review or in preparation. Co-author: **9 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
+Full record below. First author: **8 published**, 5 in review or in preparation. Co-author: **9 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
 
 **First-author**
 
@@ -71,19 +71,15 @@ Full record below. First author: **8 published**, 9 in review or in preparation.
 - Freeman EC, McClure EA, Mudunuru ML, Ward CS, Bottos EM, González-Pinzón R, Feeser KL, Krause S, Peña J, Newcomer ME. Molecular Diversity of Dissolved Organic Matter Reflects Macroecological Patterns in River Networks. *Scientific Reports* (2025).
 - Freeman EC, Peller T, Altermatt F. Ecosystem ecology needs an ecology of molecules. *Trends in Ecology and Evolution* (2025).
 - Freeman EC, Padilla-Iglesias C. Racing the Clock. *Science* (2024).
-- Freeman EC, Erratt KJ. Cyanobacteria in the Anthropocene — synanthropism forged in an era of global change. *Water Environmental Research* (2024).
+- Freeman EC, Erratt KJ. Cyanobacteria in the Anthropocene: synanthropism forged in an era of global change. *Water Environmental Research* (2024).
 - Freeman EC, Emilson EJS, Braga L, Emilson C, Martineau C, Dittmar T, Goldhammer T, Singer G, Tanentzap AJ. Universal Microbial Processes Rework Dissolved Organic Matter along Environmental Gradients. *Nature Communications* (2024).
 - Freeman EC, Jones B, Bergström AK, Creed IF. Global Changes May Be Promoting a Rise in Select Cyanobacteria in Nutrient-poor Northern Lakes. *Global Change Biology* (2020).
 - Freeman EC, Erdozain M, Daillaire CO, Teichert S, Creed IF, Nelson HW. Turning on the Tap: Demand for Resources as a Driver of Change in the Boreal Zone, Canada. *Environmental Reviews* (2019).
 - Freeman EC, Peller T, Keck F, Altermatt F. The Ecology of Molecules. *American Naturalist*, in review.
 - Freeman EC. Rare Molecules as Community Architects. *Trends in Ecology and Evolution*, in review.
 - Freeman EC, Altermatt F. When molecules matter for ecosystem management. *Frontiers in Ecology and the Environment*, in review.
-- Freeman EC. What precision medicine can teach biogeochemistry. *Nature Reviews Earth & Environment*, in prep.
-- Freeman EC. The 0.52% problem: chemical surveillance and planetary health. *Lancet Planetary Health*, in prep.
-- Freeman EC, Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M. Closing the freshwater verification gap. *Freshwater Ecology / L&O Letters*, in prep.
 - Freeman EC, Tanentzap AJ, Emilson EJS, Dittmar T. Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests. *JGR: Biogeosciences*, in prep.
 - Freeman EC, Altermatt F, Alter R. Leveraging community ecology to understand dissolved organic matter. *Frontiers in Ecology and the Environment*, in prep.
-- Freeman EC. Reading the room at ASLO-SIL 2026: 1461 talks and the shape of a field. *L&O Bulletin*, in prep.
 
 **Contributing-author**
 
@@ -120,7 +116,7 @@ Publishing the group's DOM methods openly on protocols.io (sampling and preserva
 
 - **Coordinator**, WHONDRS Consortium (PNNL; ~20 countries).
 - **Reviewer:** *Science*, *Science Advances*, *Nature Communications*, *Limnology & Oceanography*, *Geochimica et Cosmochimica Acta*, *Communications Earth & Environment*, *Biogeosciences*.
-- **Grant / fellowship review:** NSERC Discovery; GWIS National Fellowship.
+- **Grant / fellowship review:** DFG (individual research grants); NSERC Discovery; GWIS National Fellowship.
 - **Session chair:** ASLO 2027 (San Juan; with J. Wang); a DFG meeting session.
 - Cross-IGB roles: co-leads the predictive-ecology working group; contributes to the Cross-cutting Theme/Platform (CTP) Data Management.
 

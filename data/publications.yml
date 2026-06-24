@@ -47,7 +47,7 @@ first_author:
     coauthors: "Padilla-Iglesias C*"
     note_html: " &nbsp; *[[Most popular Working Life essays of 2024](https://www.science.org/content/article/perfecting-academic-writing-facing-fraud-science-s-top-personal-essays-year)]*"
 
-  - title: "Cyanobacteria in the Anthropocene — synanthropism forged in an era of global change."
+  - title: "Cyanobacteria in the Anthropocene: synanthropism forged in an era of global change."
     venue: "Water Environmental Research"
     year: 2024
     status: published
@@ -78,40 +78,48 @@ first_author:
   - title: "The Ecology of Molecules."
     venue: "American Naturalist"
     status: under_review
+    status_detail: "revised (R1); decision pending"
     coauthors: "Peller T, Keck F, Altermatt F"
 
   - title: "Rare Molecules as Community Architects."
     venue: "Trends in Ecology and Evolution"
     status: under_review
+    status_detail: "minor revision; acceptance pending"
     # sole-authored (no coauthors key -> renders "Sole author")
 
   - title: "When molecules matter for ecosystem management."
     venue: "Frontiers in Ecology and the Environment"
     status: under_review
+    status_detail: "under review"
     coauthors: "Altermatt F"
 
   - title: "What precision medicine can teach biogeochemistry."
     venue: "Nature Reviews Earth & Environment"
     status: in_prep
     pack_only: true
+    cv_feature: true
     # sole-authored perspective
 
   - title: "The 0.52% problem: chemical surveillance and planetary health."
     venue: "Lancet Planetary Health"
     status: in_prep
     pack_only: true
+    cv_feature: true
     # sole-authored
 
   - title: "Closing the freshwater verification gap."
     venue: "Freshwater Ecology / L&O Letters"
     status: in_prep
     pack_only: true
+    cv_feature: true
+    status_detail: "re-homing after Nature Water"
     coauthors: "Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M"
     # cross-IGB Perspective; re-homing after Nature Water desk-decline
 
   - title: "Examining the Efficacy of Fluorescence Spectroscopy to Detect Forest Harvest in Temperate and Boreal Forests."
     venue: "JGR: Biogeosciences"
     status: in_prep
+    cv_feature: true
     coauthors: "Tanentzap AJ, Emilson EJS, Dittmar T"
 
   - title: "Leveraging community ecology to understand dissolved organic matter."

@@ -19,7 +19,7 @@ publications
 ::: {.pubs-cols}
 
 ::: {.pubs-col}
-## First-author publications (17)
+## First-author publications (13)
 
 ::: {.group-label}
 Published
@@ -50,7 +50,7 @@ Published
 :::
 
 ::: {.pub}
-[Cyanobacteria in the Anthropocene — synanthropism forged in an era of global change.](https://onlinelibrary.wiley.com/doi/full/10.1002/wer.11066)
+[Cyanobacteria in the Anthropocene: synanthropism forged in an era of global change.](https://onlinelibrary.wiley.com/doi/full/10.1002/wer.11066)
 [Water Environmental Research · 2024]{.pub-venue}
 [with Erratt KJ\*]{.pub-authors}
 :::
@@ -97,24 +97,6 @@ When molecules matter for ecosystem management.
 
 ::: {.group-label}
 In advanced preparation
-:::
-
-::: {.pub}
-What precision medicine can teach biogeochemistry.
-[for Nature Reviews Earth & Environment]{.pub-venue}
-[Sole author]{.pub-authors}
-:::
-
-::: {.pub}
-The 0.52% problem: chemical surveillance and planetary health.
-[for Lancet Planetary Health]{.pub-venue}
-[Sole author]{.pub-authors}
-:::
-
-::: {.pub}
-Closing the freshwater verification gap.
-[for Freshwater Ecology / L&O Letters]{.pub-venue}
-[with Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M]{.pub-authors}
 :::
 
 ::: {.pub}
