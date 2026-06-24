@@ -18,11 +18,11 @@ Projects
 
 ::: {.project-card}
 ::: {.project-figure}
-The ecology of molecules
+An ecology of molecules
 :::
 ::: {.project-body}
 ::: {.project-title}
-The Ecology of Molecules
+An Ecology of Molecules
 :::
 ::: {.project-desc}
 A new field bridging molecular biogeochemistry with ecosystem science. Applying ecological theory to environmental metabolomics so that the thousands of molecules in dissolved organic matter can be read as an ecological community.
@@ -64,7 +64,7 @@ AI-assisted pipelines that annotate the thousands of molecules in a single sampl
 :::
 ::: {.project-body}
 ::: {.project-title}
-Global Ecosystem Change
+Carbon on the Move
 :::
 ::: {.project-desc}
 How carbon lost from soils into waters under land-use change rewires freshwater chemistry, from boreal forests to temperate lakes, and what it means for ecosystem function.
@@ -74,11 +74,11 @@ How carbon lost from soils into waters under land-use change rewires freshwater 
 
 ::: {.project-card}
 ::: {.project-figure}
-Improving academia
+A kinder academia
 :::
 ::: {.project-body}
 ::: {.project-title}
-Improving Academia
+A Kinder Academia
 :::
 ::: {.project-desc}
 Writing about and working to change the conditions of academic life, from the Science Working Life essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.
