@@ -504,6 +504,17 @@ main, .page-columns, #quarto-content {
   color: $mute;
   font-size: 0.8rem;
 }
+.pub-chart { max-width: 800px; margin: 0.25rem 0 2.5rem; }
+.pub-chart-label {
+  display: block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: $mute;
+  margin-bottom: 0.5rem;
+}
+.pub-chart-svg { width: 100%; height: auto; display: block; }
 @media (max-width: 1024px) {
   .pubs-cols { grid-template-columns: 1fr; }
 }

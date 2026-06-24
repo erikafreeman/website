@@ -107,6 +107,47 @@ def web_column(entries, kind, heading):
     return "\n".join(out)
 
 
+def pub_chart(first, contrib):
+    """Inline SVG bar chart of published output per year (first-author vs contributing)."""
+    from collections import defaultdict
+    fa, ca = defaultdict(int), defaultdict(int)
+    for p in first:
+        if p.get("status") == "published" and isinstance(p.get("year"), int):
+            fa[p["year"]] += 1
+    for p in contrib:
+        if p.get("status") == "published" and isinstance(p.get("year"), int):
+            ca[p["year"]] += 1
+    if not (fa or ca):
+        return ""
+    yrs = list(range(min({*fa, *ca}), max({*fa, *ca}) + 1))
+    maxv = max((fa[y] + ca[y]) for y in yrs) or 1
+    W, H, x0, x1, base, top = 800, 270, 50, 780, 215, 40
+    unit = (base - top) / maxv
+    slot = (x1 - x0) / len(yrs)
+    bw = min(46.0, slot * 0.62)
+    s = [f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" class="pub-chart-svg" role="img" aria-label="Peer-reviewed publications per year">']
+    s.append(f'<line x1="{x0}" y1="{base}" x2="{x1}" y2="{base}" stroke="#3a3f36" stroke-width="1"/>')
+    for i, y in enumerate(yrs):
+        cx = x0 + slot * i + slot / 2
+        bx = cx - bw / 2
+        f, c = fa[y], ca[y]
+        fh, ch = f * unit, c * unit
+        if f:
+            s.append(f'<rect x="{bx:.0f}" y="{base-fh:.0f}" width="{bw:.0f}" height="{fh:.0f}" rx="2" fill="#aecb86"/>')
+        if c:
+            s.append(f'<rect x="{bx:.0f}" y="{base-fh-ch:.0f}" width="{bw:.0f}" height="{ch:.0f}" rx="2" fill="#5d6b4e"/>')
+        if f + c:
+            s.append(f'<text x="{cx:.0f}" y="{base-fh-ch-7:.0f}" text-anchor="middle" font-size="13" fill="#cfd6c6" font-family="Inter,sans-serif">{f+c}</text>')
+        s.append(f'<text x="{cx:.0f}" y="{base+20:.0f}" text-anchor="middle" font-size="12" fill="#9a9a9a" font-family="Inter,sans-serif">{y}</text>')
+    s.append(f'<rect x="{x0}" y="10" width="12" height="12" rx="2" fill="#aecb86"/><text x="{x0+18}" y="20" font-size="12" fill="#9a9a9a" font-family="Inter,sans-serif">First author</text>')
+    s.append(f'<rect x="{x0+118}" y="10" width="12" height="12" rx="2" fill="#5d6b4e"/><text x="{x0+136}" y="20" font-size="12" fill="#9a9a9a" font-family="Inter,sans-serif">Contributing</text>')
+    s.append('</svg>')
+    return ("::: {.pub-chart}\n"
+            "[Peer-reviewed output by year]{.pub-chart-label}\n\n"
+            "```{=html}\n" + "".join(s) + "\n```\n\n"
+            ":::")
+
+
 def build_publications(first, contrib):
     body = [
         "---",
@@ -126,6 +167,8 @@ def build_publications(first, contrib):
         "::: {.section-title}",
         "publications",
         ":::",
+        "",
+        pub_chart(first, contrib),
         "",
         "::: {.pubs-cols}",
         "",
