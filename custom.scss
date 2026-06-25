@@ -525,6 +525,20 @@ a.project-card:hover { text-decoration: none; }
   margin-bottom: 0.5rem;
 }
 .pub-chart-svg { width: 100%; height: auto; display: block; }
+.collab-teaser {
+  max-width: 800px;
+  margin: 0.25rem 0 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid $line;
+  border-radius: 12px;
+  background: rgba(155, 184, 122, 0.05);
+  font-size: 0.95rem;
+  color: $mute;
+}
+.collab-link { color: $accent; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.collab-link:hover { text-decoration: underline; }
+.collab-figure { margin: 1rem 0 2rem; }
+.collab-figure svg { width: 100%; height: auto; display: block; }
 @media (max-width: 1024px) {
   .pubs-cols { grid-template-columns: 1fr; }
 }

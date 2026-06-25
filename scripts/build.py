@@ -148,7 +148,173 @@ def pub_chart(first, contrib):
             ":::")
 
 
-def build_publications(first, contrib):
+def _norm_author(tok):
+    """Normalise an author token to 'Surname I' (or a single name); skip consortia/et al."""
+    import re
+    t = tok.replace("**", "").replace("*", "").strip().lstrip("& ").strip()
+    low = t.lower()
+    if not t or "consortium" in low or "whondrs" in low or low.startswith("et al") or low in ("others", "and others"):
+        return None
+    t = re.sub(r"\bet al\.?", "", t, flags=re.I)
+    t = re.sub(r"\b\d{4}\b", "", t).strip().strip(",").strip()
+    if not t or t.lower() == "others":
+        return None
+    words = t.split()
+    if len(words) >= 2 and re.fullmatch(r"[A-Z]{1,4}", words[-1]):
+        return " ".join(words[:-1]) + " " + words[-1][0]
+    return t
+
+
+def _paper_authors(p, kind):
+    raw = (p.get("coauthors") if kind == "first" else p.get("authors")) or ""
+    names = {"Freeman E"} if kind == "first" else set()
+    for tok in raw.split(","):
+        nm = _norm_author(tok)
+        if nm:
+            names.add(nm)
+    return names
+
+
+def build_graph(first, contrib):
+    """Co-authorship graph: node weight = papers; edge weight = shared papers."""
+    from collections import defaultdict
+    node_w, edges = defaultdict(int), defaultdict(int)
+    papers = 0
+    for entries, kind in ((first, "first"), (contrib, "contrib")):
+        for p in entries:
+            a = sorted(_paper_authors(p, kind))
+            if not a:
+                continue
+            papers += 1
+            for nm in a:
+                node_w[nm] += 1
+            for i in range(len(a)):
+                for j in range(i + 1, len(a)):
+                    edges[(a[i], a[j])] += 1
+    return dict(node_w), dict(edges), papers
+
+
+def force_layout(node_w, edges, W=860, H=620, iters=320):
+    """Deterministic Fruchterman-Reingold layout; Erika pinned at centre."""
+    import math
+    nodes = list(node_w)
+    n = len(nodes) or 1
+    k = math.sqrt((W * H) / n) * 0.55
+    cx, cy = W / 2, H / 2
+    pos = {}
+    for i, nd in enumerate(nodes):
+        a = 2 * math.pi * i / n
+        pos[nd] = [cx + W * 0.30 * math.cos(a), cy + H * 0.30 * math.sin(a)]
+    if "Freeman E" in pos:
+        pos["Freeman E"] = [cx, cy]
+    adj = {}
+    for (a, b), w in edges.items():
+        adj.setdefault(a, {})[b] = w
+        adj.setdefault(b, {})[a] = w
+    t = W / 9.0
+    for _ in range(iters):
+        disp = {nd: [0.0, 0.0] for nd in nodes}
+        for i in range(n):
+            a = nodes[i]
+            for j in range(i + 1, n):
+                b = nodes[j]
+                dx, dy = pos[a][0] - pos[b][0], pos[a][1] - pos[b][1]
+                d = math.hypot(dx, dy) or 0.01
+                f = k * k / d
+                ux, uy = dx / d, dy / d
+                disp[a][0] += ux * f; disp[a][1] += uy * f
+                disp[b][0] -= ux * f; disp[b][1] -= uy * f
+        for a, nbrs in adj.items():
+            for b, w in nbrs.items():
+                if a < b:
+                    dx, dy = pos[a][0] - pos[b][0], pos[a][1] - pos[b][1]
+                    d = math.hypot(dx, dy) or 0.01
+                    f = (d * d / k) * (1 + 0.25 * (w - 1))
+                    ux, uy = dx / d, dy / d
+                    disp[a][0] -= ux * f; disp[a][1] -= uy * f
+                    disp[b][0] += ux * f; disp[b][1] += uy * f
+        for nd in nodes:
+            if nd == "Freeman E":
+                continue
+            dx, dy = disp[nd]
+            d = math.hypot(dx, dy) or 0.01
+            step = min(d, t)
+            pos[nd][0] = min(W - 34, max(34, pos[nd][0] + dx / d * step))
+            pos[nd][1] = min(H - 24, max(24, pos[nd][1] + dy / d * step))
+        t *= 0.97
+    return pos
+
+
+def _esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def collab_svg(node_w, edges, pos, W=860, H=620):
+    import math
+    s = [f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" class="collab-svg" role="img" aria-label="Co-author collaboration network">']
+    for (a, b), w in edges.items():
+        if a not in pos or b not in pos:
+            continue
+        op = min(0.5, 0.10 + 0.07 * w)
+        s.append(f'<line x1="{pos[a][0]:.1f}" y1="{pos[a][1]:.1f}" x2="{pos[b][0]:.1f}" y2="{pos[b][1]:.1f}" stroke="#5d6b4e" stroke-width="{0.5 + 0.45 * w:.2f}" opacity="{op:.2f}"/>')
+    labels = []
+    for nd, c in node_w.items():
+        x, y = pos[nd]
+        is_e = nd == "Freeman E"
+        r = max(11.0, 5 + 2.6 * math.sqrt(c)) if is_e else 4 + 2.3 * math.sqrt(c)
+        fill = "#aecb86" if is_e else "#7d9466"
+        nm = "Erika Freeman" if is_e else nd
+        plural = "s" if c != 1 else ""
+        s.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="{fill}" stroke="#11160f" stroke-width="1.2"><title>{_esc(nm)} — {c} paper{plural}</title></circle>')
+        if is_e or c >= 2:
+            lab = "Erika Freeman" if is_e else nd.rsplit(" ", 1)[0]
+            labels.append((x + r + 3, y + 3.5, lab, is_e))
+    for x, y, lab, is_e in labels:
+        s.append(f'<text x="{x:.1f}" y="{y:.1f}" font-size="{12 if is_e else 10.5}" fill="{"#e8efe0" if is_e else "#b9c4aa"}" font-family="Inter,sans-serif" font-weight="{600 if is_e else 400}">{_esc(lab)}</text>')
+    s.append("</svg>")
+    return "".join(s)
+
+
+def build_collaborations(node_w, edges, pos, papers):
+    n_co = len(node_w) - (1 if "Freeman E" in node_w else 0)
+    svg = collab_svg(node_w, edges, pos)
+    body = [
+        "---",
+        'title: ""',
+        'pagetitle: "Collaboration network"',
+        'description: "The co-author network behind Dr. Erika C. Freeman\'s publications — every collaborator, linked when they share a paper."',
+        "format:",
+        "  html:",
+        "    toc: false",
+        "    page-layout: full",
+        "---",
+        "",
+        "<!-- GENERATED by scripts/build.py from data/publications.yml — do not edit by hand. -->",
+        "",
+        "::: {.section-label}",
+        "Publications",
+        ":::",
+        "# collaboration network {.section-title}",
+        "",
+        f"The people behind the papers: every co-author Erika has published with, linked whenever they share a paper. **{n_co} co-authors across {papers} works.** Node size scales with shared papers; clusters are research communities. Hover a node for the name.",
+        "",
+        "::: {.collab-figure}",
+        "",
+        "```{=html}",
+        svg,
+        "```",
+        "",
+        ":::",
+        "",
+        "::: {.personal-link}",
+        "Affiliations aren't in the publication metadata, so this maps people, not institutions. [← Back to publications](publications.html)",
+        ":::",
+        "",
+    ]
+    (ROOT / "collaborations.qmd").write_text("\n".join(body), encoding="utf-8")
+
+
+def build_publications(first, contrib, n_co, papers):
     body = [
         "---",
         'title: ""',
@@ -167,7 +333,9 @@ def build_publications(first, contrib):
         ":::",
         "# publications {.section-title}",
         "",
-        pub_chart(first, contrib),
+        "::: {.collab-teaser}",
+        f"Across {papers} works, Erika has collaborated with **{n_co} co-authors**. [Explore the collaboration network →](collaborations.html){{.collab-link}}",
+        ":::",
         "",
         "::: {.pubs-cols}",
         "",
@@ -382,10 +550,15 @@ def main():
     # the full pipeline (in-progress / in-review / commentary work included).
     first_pub = [p for p in first_all if not p.get("pack_only")]
     contrib_pub = [p for p in contrib_all if not p.get("pack_only")]
-    build_publications(first_pub, contrib_pub)
+    node_w, edges, papers = build_graph(first_pub, contrib_pub)
+    pos = force_layout(node_w, edges)
+    n_co = len(node_w) - (1 if "Freeman E" in node_w else 0)
+    build_publications(first_pub, contrib_pub, n_co, papers)
+    build_collaborations(node_w, edges, pos, papers)
     build_protocols(protocols)
     build_cv(cv, first_all, contrib_all, protocols)
     print(f"[build] publications.qmd: {len(first_pub)} first-author, {len(contrib_pub)} contributing (public)")
+    print(f"[build] collaborations.qmd: {n_co} co-authors across {papers} works")
     print(f"[build] protocols.qmd: {len(protocols.get('protocols', []))} protocols")
     print("[build] cv.qmd: html + typst")
 
