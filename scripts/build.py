@@ -314,7 +314,7 @@ def build_collaborations(node_w, edges, pos, papers):
     (ROOT / "collaborations.qmd").write_text("\n".join(body), encoding="utf-8")
 
 
-def build_publications(first, contrib, n_co, papers):
+def build_publications(first, contrib):
     body = [
         "---",
         'title: ""',
@@ -332,10 +332,6 @@ def build_publications(first, contrib, n_co, papers):
         "Publications",
         ":::",
         "# publications {.section-title}",
-        "",
-        "::: {.collab-teaser}",
-        f"Across {papers} works, Erika has collaborated with **{n_co} co-authors**. [Explore the collaboration network →](collaborations.html){{.collab-link}}",
-        ":::",
         "",
         "::: {.pubs-cols}",
         "",
@@ -550,15 +546,10 @@ def main():
     # the full pipeline (in-progress / in-review / commentary work included).
     first_pub = [p for p in first_all if not p.get("pack_only")]
     contrib_pub = [p for p in contrib_all if not p.get("pack_only")]
-    node_w, edges, papers = build_graph(first_pub, contrib_pub)
-    pos = force_layout(node_w, edges)
-    n_co = len(node_w) - (1 if "Freeman E" in node_w else 0)
-    build_publications(first_pub, contrib_pub, n_co, papers)
-    build_collaborations(node_w, edges, pos, papers)
+    build_publications(first_pub, contrib_pub)
     build_protocols(protocols)
     build_cv(cv, first_all, contrib_all, protocols)
     print(f"[build] publications.qmd: {len(first_pub)} first-author, {len(contrib_pub)} contributing (public)")
-    print(f"[build] collaborations.qmd: {n_co} co-authors across {papers} works")
     print(f"[build] protocols.qmd: {len(protocols.get('protocols', []))} protocols")
     print("[build] cv.qmd: html + typst")
 

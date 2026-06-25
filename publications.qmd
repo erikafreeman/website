@@ -15,10 +15,6 @@ Publications
 :::
 # publications {.section-title}
 
-::: {.collab-teaser}
-Across 24 works, Erika has collaborated with **82 co-authors**. [Explore the collaboration network →](collaborations.html){.collab-link}
-:::
-
 ::: {.pubs-cols}
 
 ::: {.pubs-col}
