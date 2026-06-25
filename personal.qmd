@@ -15,29 +15,29 @@ Personal projects
 
 # off the clock {.section-title}
 
-The things I make and chase when I'm not at the bench.
+The things I make and chase when I'm not at the bench. Each opens its working folder in Drive.
 
 ```{=html}
 <div class="projects-grid">
-  <a class="project-card" href="adventure.html">
+  <a class="project-card" href="https://drive.google.com/drive/folders/1AQWjCUx8Mj5l2jPhiDfXb8toky3Z4agT" target="_blank" rel="noopener">
     <div class="project-figure"><img src="assets/projects/outside.jpg" alt="Erika outdoors in athletic gear beside the water" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Adventure</h2>
-      <p class="project-desc">Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. <span class="card-cta">Read the logs →</span></p>
+      <p class="project-desc">Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. <span class="card-cta">Open in Drive →</span></p>
     </div>
   </a>
-  <a class="project-card" href="travel.html">
+  <a class="project-card" href="https://drive.google.com/drive/folders/1vYOA1K6MltYL6QiZyjtnVZe0JX-jKdaZ" target="_blank" rel="noopener">
     <div class="project-figure"><span class="figure-text">Travel</span></div>
     <div class="project-body">
       <h2 class="project-title">Travel</h2>
-      <p class="project-desc">Field trips, conferences, and a deep love of Argentina. <span class="card-cta">See the logs →</span></p>
+      <p class="project-desc">Field trips, conferences, and a deep love of Argentina. <span class="card-cta">Open in Drive →</span></p>
     </div>
   </a>
-  <a class="project-card" href="dinners.html">
+  <a class="project-card" href="https://drive.google.com/drive/folders/1qEL7wdN14cPtcwRmQ2yFl87FMbS-bCDh" target="_blank" rel="noopener">
     <div class="project-figure"><img src="assets/projects/citrus.svg" alt="Stylised green cross-section of a citrus fruit" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Table of Contents</h2>
-      <p class="project-desc">A themed dinner series with Juli. CITR·US is the citrus strand. <span class="card-cta">See the editions →</span></p>
+      <p class="project-desc">A themed dinner series with Juli. CITR·US is the citrus strand. <span class="card-cta">Open in Drive →</span></p>
     </div>
   </a>
 </div>

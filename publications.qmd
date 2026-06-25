@@ -59,7 +59,7 @@ Published
 :::
 
 ::: {.pub}
-[Universal Microbial Processes Rework Dissolved Organic Matter along Environmental Gradients.](https://www.nature.com/articles/s41467-023-44431-4)
+[Universal Microbial Reworking of Dissolved Organic Matter along Environmental Gradients.](https://www.nature.com/articles/s41467-023-44431-4)
 [Nature Communications · 2024]{.pub-venue}
 [with Emilson EJS, Braga L, Emilson C, Martineau C, Dittmar T, Goldhammer T, Singer G, Tanentzap AJ]{.pub-authors}
 :::
@@ -71,9 +71,9 @@ Published
 :::
 
 ::: {.pub}
-[Turning on the Tap: Demand for Resources as a Driver of Change in the Boreal Zone, Canada.](https://cdnsciencepub.com/doi/10.1139/er-2018-0064)
+[Demand for provisioning ecosystem services as a driver of change in the Canadian boreal zone.](https://cdnsciencepub.com/doi/10.1139/er-2018-0064)
 [Environmental Reviews · 2019]{.pub-venue}
-[with Erdozain M\*, Daillaire CO\*, Teichert S, Creed IF, Nelson HW]{.pub-authors}
+[with Erdozain M\*, Ouellet Dallaire C\*, Teichert S, Nelson HW, Creed IF]{.pub-authors}
 :::
 
 ::: {.group-label}
