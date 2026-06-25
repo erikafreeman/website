@@ -38,7 +38,7 @@ Projects
     </div>
   </a>
   <a class="project-card" href="publications.html">
-    <div class="project-figure"><img src="assets/projects/global-ecosystem-change.jpg" alt="A boreal forest edge meeting a dark, tea-coloured lake" loading="lazy" decoding="async"></div>
+    <div class="project-figure"><img src="assets/projects/global-ecosystem-change.jpg" alt="Golden carbon flowing from forest soil and roots into a dark lake, with molecular structures and a spectrum trace beneath the surface" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Carbon on the Move</h2>
       <p class="project-desc">How carbon lost from soils into waters under land-use change rewires freshwater chemistry, from boreal forests to temperate lakes, and what it means for ecosystem function.</p>
