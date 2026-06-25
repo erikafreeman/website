@@ -167,7 +167,7 @@ def _norm_author(tok):
 
 def _paper_authors(p, kind):
     raw = (p.get("coauthors") if kind == "first" else p.get("authors")) or ""
-    names = {"Freeman E"} if kind == "first" else set()
+    names = {"Freeman E"}  # her own publication list — she is on every paper
     for tok in raw.split(","):
         nm = _norm_author(tok)
         if nm:
