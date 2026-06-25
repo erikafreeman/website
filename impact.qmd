@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Impact — Erika C. Freeman"
+pagetitle: "Impact"
+description: "Research impact and reach of Dr. Erika C. Freeman — publications, funding, collaboration, and public-facing work."
 format:
   html:
     toc: false
@@ -10,9 +11,7 @@ format:
 ::: {.section-label}
 Impact
 :::
-::: {.section-title}
-impact
-:::
+# impact {.section-title}
 
 Research impact and reach across publications, funding, and collaboration.
 

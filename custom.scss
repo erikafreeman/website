@@ -378,6 +378,16 @@ main, .page-columns, #quarto-content {
 }
 .log-entry ul { margin: 0.4rem 0 0; }
 .project-card:hover .project-title { color: $accent; }
+a.project-card { text-decoration: none; color: inherit; display: block; }
+a.project-card:hover { text-decoration: none; }
+.card-cta { color: $accent; font-weight: 600; white-space: nowrap; }
+.project-figure .figure-text {
+  color: $mute;
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
 .project-body { padding: 1.1rem 0.2rem 1.5rem; }
 .project-title {
   font-family: $font-family-sans-serif;
@@ -564,6 +574,13 @@ main, .page-columns, #quarto-content {
 @media (max-width: 760px) {
   .colophon { grid-template-columns: 1fr; padding: 2rem 1.5rem; }
   .colophon-right { text-align: left; }
+}
+/* Larger tap targets on mobile (nav + footer links) */
+@media (max-width: 760px) {
+  .masthead-nav { flex-wrap: wrap; gap: 0.4rem 1.3rem; }
+  .masthead-nav a { display: inline-block; padding: 0.5rem 0; }
+  .colophon a { display: inline-block; padding: 0.45rem 0; }
+  .colophon-right a { margin-right: 0.4rem; }
 }
 
 /* === Hide Quarto chrome === */

@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: _site
   pre-render: scripts/build.py
+  post-render: scripts/postprocess.py
 
 website:
   title: "Erika C. Freeman"
@@ -17,6 +18,7 @@ format:
     css: styles.css
     toc: false
     page-layout: full
+    anchor-sections: false
     include-in-header:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Erika C. Freeman — Biogeochemist"
+pagetitle: "Carbon Biogeochemist"
+description: "Dr. Erika C. Freeman — carbon biogeochemist at IGB Berlin, pioneering the ecology of molecules: dissolved organic matter at molecular resolution."
 format:
   html:
     toc: false

@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Contact — Erika C. Freeman"
+pagetitle: "Contact"
+description: "Get in touch with Dr. Erika C. Freeman, aquatic biogeochemist at IGB Berlin — collaborations, prospective students, and DOM chemistry."
 format:
   html:
     toc: false
@@ -10,9 +11,7 @@ format:
 ::: {.section-label}
 Contact
 :::
-::: {.section-title}
-contact
-:::
+# contact {.section-title}
 
 ::: {.contact-block}
 

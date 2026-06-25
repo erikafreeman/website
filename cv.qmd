@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "CV — Erika C. Freeman"
+pagetitle: "CV"
+description: "Curriculum vitae of Dr. Erika C. Freeman, Junior Group Leader (Tenure Track) at IGB Berlin."
 format:
   html:
     toc: false

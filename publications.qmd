@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Publications — Erika C. Freeman"
+pagetitle: "Publications"
+description: "Publications by Dr. Erika C. Freeman — peer-reviewed first-author and contributing papers in dissolved organic matter, FT-ICR-MS, and freshwater biogeochemistry."
 format:
   html:
     toc: false
@@ -12,9 +13,7 @@ format:
 ::: {.section-label}
 Publications
 :::
-::: {.section-title}
-publications
-:::
+# publications {.section-title}
 
 ::: {.pub-chart}
 [Peer-reviewed output by year]{.pub-chart-label}

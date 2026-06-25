@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Personal projects — Erika C. Freeman"
+pagetitle: "Personal projects"
+description: "Beyond the lab — adventure and travel logs and the Table of Contents dinner series. Private; write me for access."
 format:
   html:
     toc: false
@@ -11,57 +12,36 @@ format:
 ::: {.section-label}
 Personal projects
 :::
-::: {.section-title}
-off the clock
-:::
+
+# off the clock {.section-title}
 
 The things I make and chase when I'm not at the bench.
 
-::: {.projects-grid}
-
-::: {.project-card}
-::: {.project-figure}
-![](assets/projects/outside.jpg)
-:::
-::: {.project-body}
-::: {.project-title}
-[Adventure](adventure.html)
-:::
-::: {.project-desc}
-Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. [Read the logs →](adventure.html)
-:::
-:::
-:::
-
-::: {.project-card}
-::: {.project-figure}
-Travel
-:::
-::: {.project-body}
-::: {.project-title}
-[Travel](travel.html)
-:::
-::: {.project-desc}
-Field trips, conferences, and a deep love of Argentina. [See the logs →](travel.html)
-:::
-:::
-:::
-
-::: {.project-card}
-::: {.project-figure}
-![](assets/projects/citrus.svg)
-:::
-::: {.project-body}
-::: {.project-title}
-[Table of Contents](dinners.html)
-:::
-::: {.project-desc}
-A themed dinner series with Juli. CITR·US is the citrus strand. [See the editions →](dinners.html)
-:::
-:::
-:::
-
-:::
+```{=html}
+<div class="projects-grid">
+  <a class="project-card" href="adventure.html">
+    <div class="project-figure"><img src="assets/projects/outside.jpg" alt="Erika outdoors in athletic gear beside the water" loading="lazy" decoding="async"></div>
+    <div class="project-body">
+      <h2 class="project-title">Adventure</h2>
+      <p class="project-desc">Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. <span class="card-cta">Read the logs →</span></p>
+    </div>
+  </a>
+  <a class="project-card" href="travel.html">
+    <div class="project-figure"><span class="figure-text">Travel</span></div>
+    <div class="project-body">
+      <h2 class="project-title">Travel</h2>
+      <p class="project-desc">Field trips, conferences, and a deep love of Argentina. <span class="card-cta">See the logs →</span></p>
+    </div>
+  </a>
+  <a class="project-card" href="dinners.html">
+    <div class="project-figure"><img src="assets/projects/citrus.svg" alt="Stylised green cross-section of a citrus fruit" loading="lazy" decoding="async"></div>
+    <div class="project-body">
+      <h2 class="project-title">Table of Contents</h2>
+      <p class="project-desc">A themed dinner series with Juli. CITR·US is the citrus strand. <span class="card-cta">See the editions →</span></p>
+    </div>
+  </a>
+</div>
+```
 
 ::: {.personal-link}
 [← Back to projects](projects.html)

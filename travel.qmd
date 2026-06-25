@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Travel — Erika C. Freeman"
+pagetitle: "Travel"
+description: "Fieldwork, conferences, and a love of Argentina — travel notes and photographs. (Private personal-projects page.)"
 format:
   html:
     toc: false
@@ -11,9 +12,7 @@ format:
 ::: {.section-label}
 Personal projects
 :::
-::: {.section-title}
-travel
-:::
+# travel {.section-title}
 
 Fieldwork takes me to lakes and rivers; the rest is curiosity. A deep and standing love of Argentina runs through it all. Travel logs and photos will collect here.
 

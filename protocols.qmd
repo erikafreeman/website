@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Protocols — Erika C. Freeman"
+pagetitle: "Protocols"
+description: "Open lab protocols from Dr. Erika C. Freeman, released on protocols.io with citable DOIs: DOM sampling, PPL extraction, FT-ICR-MS, and AI-assisted annotation."
 format:
   html:
     toc: false
@@ -12,9 +13,7 @@ format:
 ::: {.section-label}
 Protocols
 :::
-::: {.section-title}
-protocols
-:::
+# protocols {.section-title}
 
 Methods from the lab, released openly on protocols.io as they are finalized — each with a citable DOI. DOIs appear here as protocols go live.
 

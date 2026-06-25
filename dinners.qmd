@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Table of Contents — Erika C. Freeman"
+pagetitle: "Table of Contents"
+description: "Table of Contents — a themed, academic dinner series with Juli. CITR·US is the citrus strand. (Private personal-projects page.)"
 format:
   html:
     toc: false
@@ -11,9 +12,7 @@ format:
 ::: {.section-label}
 Personal projects
 :::
-::: {.section-title}
-table of contents
-:::
+# table of contents {.section-title}
 
 A themed dinner series I run with Juli. Each edition takes one idea and teaches it across a multi-course, interactive meal: readings at the table, tasting experiments, and everyone cooking together. Vegan, alcohol-free paired. As the invitations put it, *the fruit is the pretext; you are the point.* **CITR·US** is the citrus strand.
 

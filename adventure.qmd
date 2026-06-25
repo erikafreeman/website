@@ -1,6 +1,7 @@
 ---
 title: ""
-pagetitle: "Adventure — Erika C. Freeman"
+pagetitle: "Adventure"
+description: "Running, climbing, and trail adventures — training toward a sub-3:30 marathon. (Private personal-projects page.)"
 format:
   html:
     toc: false
@@ -11,9 +12,7 @@ format:
 ::: {.section-label}
 Personal projects
 :::
-::: {.section-title}
-adventure
-:::
+# adventure {.section-title}
 
 Running, climbing, botanising, and as much time as possible out the door. Right now that means building toward a sub-3:30 marathon. Routes, races, and trail notes will collect here.
 
