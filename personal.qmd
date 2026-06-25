@@ -19,7 +19,7 @@ The things I make and chase when I'm not at the bench. Each opens its working fo
 
 ```{=html}
 <div class="projects-grid">
-  <a class="project-card" href="https://drive.google.com/drive/folders/1AQWjCUx8Mj5l2jPhiDfXb8toky3Z4agT" target="_blank" rel="noopener">
+  <a class="project-card" href="https://drive.google.com/drive/folders/15nowp-VkPrbWb-wEvvo4aWEtFuV0YZB_" target="_blank" rel="noopener">
     <div class="project-figure"><img src="assets/projects/outside.jpg" alt="Erika outdoors in athletic gear beside the water" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Adventure</h2>
