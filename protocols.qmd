@@ -22,16 +22,6 @@ Methods from the lab, released openly on protocols.io as they are finalized — 
 ::: {.pubs-col style="grid-column: 1 / -1;"}
 
 ::: {.group-label}
-In preparation
-:::
-
-::: {.pub}
-Phytoplankton analysis with the FlowCAM
-[protocols.io (from SOP 001-2016)]{.pub-venue}
-[Existing SOP (Creed, Trick, Freeman, Oakes, 2016) to be re-released with a DOI.]{.pub-authors}
-:::
-
-::: {.group-label}
 Planned
 :::
 

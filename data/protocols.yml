@@ -9,7 +9,7 @@
 
 intro: "Methods from the lab, released openly on protocols.io as they are finalized — each with a citable DOI. DOIs appear here as protocols go live."
 
-cv_statement: "Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation, FlowCAM SOP); DOIs added as released."
+cv_statement: "Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation); DOIs added as released."
 
 protocols:
   - title: "DOM sampling and preservation for FT-ICR-MS"
@@ -36,8 +36,3 @@ protocols:
     status: planned
     venue: "protocols.io (planned)"
     note: "Machine-learning annotation of DOM spectra; sequenced to complement the structural-annotation paper and FreshDreaMS."
-
-  - title: "Phytoplankton analysis with the FlowCAM"
-    status: in_prep
-    venue: "protocols.io (from SOP 001-2016)"
-    note: "Existing SOP (Creed, Trick, Freeman, Oakes, 2016) to be re-released with a DOI."

@@ -102,7 +102,7 @@ Full record below. First author: **8 published**, 9 in review or in preparation.
 
 ## Protocols
 
-Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation, FlowCAM SOP); DOIs added as released.
+Publishing the group's DOM methods openly on protocols.io (sampling and preservation, FT-ICR-MS PPL-SPE workflow, AI-assisted molecular annotation); DOIs added as released.
 
 ## Invited talks (selected)
 

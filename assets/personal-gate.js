@@ -2,7 +2,7 @@
 // NOTE: static hosting has no server, so this keeps pages out of search and
 // behind a friendly prompt; it is not strong protection (content is in source).
 (function () {
-  var HASH = "f824c60a2e598ff096f9f0ec3c9cb80daebda030dc4ef6049192c211fdfd62d4"; // sha256("wintersun")
+  var HASH = "bccb6abb625eaf092db278759e99f3e5ac90fc721b21990b09c751279d7a79ea"; // sha256("manessestrasse97")
   try { if (sessionStorage.getItem('pp_ok') === '1') return; } catch (e) {}
 
   function build() {
