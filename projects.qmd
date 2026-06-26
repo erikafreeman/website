@@ -20,42 +20,42 @@ Projects
     <div class="project-figure"><img src="assets/projects/ecology-of-molecules.jpg" alt="Hundreds of molecules linked as a glowing green network above a faint mass-spectrum skyline" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">An Ecology of Molecules</h2>
-      <p class="project-desc">A new field bridging molecular biogeochemistry with ecosystem science. Applying ecological theory to environmental metabolomics so that the thousands of molecules in dissolved organic matter can be read as an ecological community.</p>
+      <p class="project-desc">Treating the thousands of molecules in a drop of water as a living community. It's a new field I'm building, one that brings ecological thinking to the chemistry of ecosystems.</p>
     </div>
   </a>
   <a class="project-card" href="publications.html">
     <div class="project-figure"><img src="assets/projects/predictive-ecology.jpg" alt="A glowing forecast curve arcing over a dark lake and forest at dusk" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Predictive Ecology</h2>
-      <p class="project-desc">Moving freshwater science from describing ecosystems to forecasting them. I co-lead work that pairs ecological theory with leading-edge, high-resolution data to anticipate how carbon cycling and water quality respond as the world changes.</p>
+      <p class="project-desc">Forecasting ecosystems, not just describing them. I co-lead work that turns rich environmental data into early signals of how carbon and water quality will shift as the world changes.</p>
     </div>
   </a>
   <a class="project-card" href="protocols.html">
     <div class="project-figure"><img src="assets/projects/precision-biogeochemistry.jpg" alt="A grid of molecular structures feeding into a glowing neural network" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Precision Biogeochemistry</h2>
-      <p class="project-desc">AI-assisted pipelines that annotate the thousands of molecules in a single sample, turning raw FT-ICR-MS spectra into meaningful biogeochemistry: a faster, more reproducible, more precise way to read organic matter at molecular scale.</p>
+      <p class="project-desc">Teaching AI to read water chemistry. My pipelines identify thousands of molecules in a single sample at once, turning dense mass-spectrometry data into meaning faster and more reliably than anyone could by hand.</p>
     </div>
   </a>
   <a class="project-card" href="publications.html">
     <div class="project-figure"><img src="assets/projects/global-ecosystem-change.jpg" alt="Golden carbon flowing from forest soil and roots into a dark lake, with molecular structures and a spectrum trace beneath the surface" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Carbon on the Move</h2>
-      <p class="project-desc">How carbon lost from soils into waters under land-use change rewires freshwater chemistry, from boreal forests to temperate lakes, and what it means for ecosystem function.</p>
+      <p class="project-desc">Following carbon from the forest floor into the water. When land-use change washes carbon out of soils, it rewires the chemistry of rivers and lakes, and I trace what that means for the whole ecosystem.</p>
     </div>
   </a>
   <a class="project-card" href="contact.html">
     <div class="project-figure"><img src="assets/projects/carbon-in-practice.jpg" alt="Carbon flowing from a molecular diagram into a landscape and a data dashboard" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Carbon in Practice</h2>
-      <p class="project-desc">Applied carbon work alongside the science. From life-cycle assessment at a food-tech start-up to corporate environmental work, I work where molecular science meets carbon accounting, MRV (measurement, reporting, verification), and real climate decisions.</p>
+      <p class="project-desc">Where the science meets real climate decisions. From carbon footprinting at a food-tech start-up to corporate environmental work, I connect molecular science to how carbon is measured, verified, and acted on.</p>
     </div>
   </a>
   <a class="project-card" href="publications.html">
     <div class="project-figure"><img src="assets/projects/kinder-academia.jpg" alt="Stylised figures supporting one another beneath a molecular constellation" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">A Kinder Academia</h2>
-      <p class="project-desc">Writing about and working to change the conditions of academic life, from the Science Working Life essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.</p>
+      <p class="project-desc">Making academic life more humane. From a Science essay on having children in academia (with Cecilia Padilla-Iglesias) to ongoing work on equity and mentorship.</p>
     </div>
   </a>
 </div>
