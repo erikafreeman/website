@@ -129,9 +129,10 @@ first_author:
 
   - title: "Reading the room at ASLO-SIL 2026: 1461 talks and the shape of a field."
     venue: "L&O Bulletin"
-    status: commentary
+    status: under_review
+    status_detail: "submitted"
     pack_only: true
-    # sole-authored community-writing piece; submitted
+    # sole-authored, peer-reviewed field commentary; submitted (LOB-26-0023)
 
 contributing:
 

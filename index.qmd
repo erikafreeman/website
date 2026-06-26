@@ -48,6 +48,7 @@ And when I'm not at the office, you'll usually find me doing irresponsible amoun
 :::
 :::
 
+::: {.bio-side}
 ::: {.bio-col .bio-list}
 [My passions]{.bio-label}
 
@@ -63,6 +64,7 @@ Scientific rigour, ecosystem management, teamwork and collaboration, fun and com
 - Logistics and fieldwork
 - Project management
 - Cross-sector collaboration
+:::
 :::
 :::
 
