@@ -20,7 +20,7 @@ Projects
     <div class="project-figure"><img src="assets/projects/ecology-of-molecules.jpg" alt="Hundreds of molecules linked as a glowing green network above a faint mass-spectrum skyline" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">An Ecology of Molecules</h2>
-      <p class="project-desc">Treating the thousands of molecules in a drop of water as a living community. It's a new field I'm building, one that brings ecological thinking to the chemistry of ecosystems.</p>
+      <p class="project-desc">Treating the thousands of molecules in a drop of water as a living community. It's an emerging field that brings ecological thinking to the chemistry of ecosystems, and one I'm glad to help shape.</p>
     </div>
   </a>
   <a class="project-card" href="publications.html">
