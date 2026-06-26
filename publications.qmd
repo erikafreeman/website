@@ -117,7 +117,7 @@ Leveraging community ecology to understand dissolved organic matter.
 :::
 
 ::: {.pubs-col}
-## Contributing-author publications (11)
+## Contributing-author publications (17)
 
 ::: {.group-label}
 Published
@@ -185,6 +185,37 @@ In advanced preparation
 The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data.
 [for Scientific Data]{.pub-venue}
 [Beugnon, Cheneka et al. 2025]{.pub-authors}
+:::
+
+::: {.pub}
+PLANET DOM synthesis (planetary biogeochemical flows).
+[Graeber D, Kamjunke N, … **Freeman EC** (UFZ-led)]{.pub-authors}
+:::
+
+::: {.pub}
+Landscape chemodiversity across the boreal–temperate gradient.
+[Tanentzap AJ, Sommer Starr S, Fonvielle J, **Freeman EC**]{.pub-authors}
+:::
+
+::: {.pub}
+Evolving MetaEcos.
+[McLeod A, … **Freeman EC** (IGB)]{.pub-authors}
+:::
+
+::: {.pub}
+Perspective on pore-scale modeling of organic-matter dynamics.
+[for Environmental Science & Technology]{.pub-venue}
+[Chakrawal A, Mudunuru ML, … **Freeman EC** (PNNL / EMSL)]{.pub-authors}
+:::
+
+::: {.pub}
+Uganda DOM.
+[Creed IF (lead), Erratt KJ, **Freeman EC** (lead FT-ICR-MS), Tanentzap AJ]{.pub-authors}
+:::
+
+::: {.pub}
+How DOM composition matters (Perspective).
+[Creed IF, Tanentzap AJ, … **Freeman EC** (invited)]{.pub-authors}
 :::
 
 ::: {.group-label}

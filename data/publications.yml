@@ -127,10 +127,36 @@ first_author:
     status: in_prep
     coauthors: "Altermatt F, Alter R"
 
+  - title: "Data centres on lakes."
+    venue: "Science (Policy Forum)"
+    status: in_prep
+    pack_only: true
+    status_detail: "drafting"
+    coauthors: "IGB co-authors"
+
+  - title: "Reading structure, not formulas: structural-class DOM annotation."
+    venue: "Environmental Science & Technology / Water Research"
+    status: in_prep
+    pack_only: true
+    status_detail: "planned (data in hand; de-risks WATERMARK / FreshDreaMS)"
+
+  - title: "Lake Stechlin molecular forensics (pilot)."
+    venue: "Water Research / Environmental Science & Technology"
+    status: in_prep
+    pack_only: true
+    status_detail: "planned; follows TRACE"
+    coauthors: "Lewandowski J"
+
+  - title: "Annotated DOM structural-spectral benchmark (data paper)."
+    venue: "Scientific Data"
+    status: in_prep
+    pack_only: true
+    status_detail: "planned (FreshDreaMS)"
+
   - title: "Reading the room at ASLO-SIL 2026: 1461 talks and the shape of a field."
     venue: "L&O Bulletin"
     status: under_review
-    status_detail: "submitted"
+    status_detail: "submitted (peer-reviewed; not on IGB list)"
     pack_only: true
     # sole-authored, peer-reviewed field commentary; submitted (LOB-26-0023)
 
@@ -209,6 +235,36 @@ contributing:
     venue: "Scientific Data"
     status: in_prep
     authors: "Beugnon, Cheneka et al. 2025"
+
+  - title: "PLANET DOM synthesis (planetary biogeochemical flows)."
+    venue: ""
+    status: in_prep
+    authors: "Graeber D, Kamjunke N, … **Freeman EC** (UFZ-led)"
+
+  - title: "Landscape chemodiversity across the boreal–temperate gradient."
+    venue: ""
+    status: in_prep
+    authors: "Tanentzap AJ, Sommer Starr S, Fonvielle J, **Freeman EC**"
+
+  - title: "Evolving MetaEcos."
+    venue: ""
+    status: in_prep
+    authors: "McLeod A, … **Freeman EC** (IGB)"
+
+  - title: "Perspective on pore-scale modeling of organic-matter dynamics."
+    venue: "Environmental Science & Technology"
+    status: in_prep
+    authors: "Chakrawal A, Mudunuru ML, … **Freeman EC** (PNNL / EMSL)"
+
+  - title: "Uganda DOM."
+    venue: ""
+    status: in_prep
+    authors: "Creed IF (lead), Erratt KJ, **Freeman EC** (lead FT-ICR-MS), Tanentzap AJ"
+
+  - title: "How DOM composition matters (Perspective)."
+    venue: ""
+    status: in_prep
+    authors: "Creed IF, Tanentzap AJ, … **Freeman EC** (invited)"
 
   - title: "Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies."
     venue: "Standard Operating Procedure 001-2016"

@@ -228,12 +228,12 @@ section.section-title { font-size: 1rem; font-weight: 400; line-height: 1.6; let
 /* === Bio page — three-column layout === */
 .bio-section {
   position: relative;
-  padding: 4rem 0;
+  padding: 2.25rem 0 2.75rem;
 }
 .bio-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 3.5rem;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 2.5rem;
   align-items: start;
   position: relative;
   z-index: 2;
@@ -256,9 +256,9 @@ section.section-title { font-size: 1rem; font-weight: 400; line-height: 1.6; let
 .bio-text {
   color: $ink;
   font-size: 0.98rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
-.bio-text p { margin: 0 0 1rem; }
+.bio-text p { margin: 0 0 0.8rem; }
 .bio-text p a { color: $ink; text-decoration: underline; text-decoration-color: $accent; }
 .bio-list {
   font-size: 0.95rem;
