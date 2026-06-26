@@ -386,6 +386,9 @@ def build_cv(cv, first, contrib, protocols):
         f"{pr['citizenship']} · {pr['languages']}"
     )
 
+    # CV omits in-prep work; show published + in-review / submitted only.
+    first = [p for p in first if p.get("status") != "in_prep"]
+    contrib = [p for p in contrib if p.get("status") != "in_prep"]
     n_pub_first = sum(1 for p in first if p.get("status") == "published")
     n_other_first = len(first) - n_pub_first
     n_contrib_pub = sum(1 for p in contrib if p.get("status") == "published")
@@ -445,7 +448,7 @@ def build_cv(cv, first, contrib, protocols):
     L += ["", "## Publications", ""]
     L += [
         f"Full record below. First author: **{n_pub_first} published**, "
-        f"{n_other_first} in review or in preparation. "
+        f"{n_other_first} in review or submitted. "
         f"Co-author: **{n_contrib_pub} published**. "
         f"Metrics via ORCID {pr['orcid']} and Google Scholar ({pr['scholar']}).",
         "",

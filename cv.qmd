@@ -64,7 +64,7 @@ format:
 
 ## Publications
 
-Full record below. First author: **8 published**, 13 in review or in preparation. Co-author: **9 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
+Full record below. First author: **8 published**, 4 in review or submitted. Co-author: **9 published**. Metrics via ORCID 0000-0001-7161-6038 and Google Scholar (E6WubOUAAAAJ).
 
 **First-author**
 
@@ -79,15 +79,6 @@ Full record below. First author: **8 published**, 13 in review or in preparation
 - Freeman EC, Peller T, Keck F, Altermatt F. The Ecology of Molecules. *American Naturalist*, revised (R1); decision pending.
 - Freeman EC. Rare Molecules as Community Architects. *Trends in Ecology and Evolution*, minor revision; acceptance pending.
 - Freeman EC, Altermatt F. When molecules matter for ecosystem management. *Frontiers in Ecology and the Environment*, under review.
-- Freeman EC. What precision medicine can teach biogeochemistry. *Nature Reviews Earth & Environment*, in prep.
-- Freeman EC. The 0.52% problem: chemical surveillance and planetary health. *Lancet Planetary Health*, in prep.
-- Freeman EC, Domisch S, Hilt S, McLeod A, Shatwell T, Schroer S, Tetzlaff D, Venohr M. Closing the freshwater verification gap. *Freshwater Ecology / L&O Letters*, re-homing after Nature Water.
-- Freeman EC, Tanentzap AJ, Emilson EJS, Dittmar T. Detecting forest harvest through DOM fluorescence. *JGR: Biogeosciences*, in prep.
-- Freeman EC, Altermatt F, Alter R. Leveraging community ecology to understand dissolved organic matter. *Frontiers in Ecology and the Environment*, in prep.
-- Freeman EC, IGB co-authors. Data centres on lakes. *Science (Policy Forum)*, drafting.
-- Freeman EC. Reading structure, not formulas: structural-class DOM annotation. *Environmental Science & Technology / Water Research*, planned (data in hand; de-risks WATERMARK / FreshDreaMS).
-- Freeman EC, Lewandowski J. Lake Stechlin molecular forensics (pilot). *Water Research / Environmental Science & Technology*, planned; follows TRACE.
-- Freeman EC. Annotated DOM structural-spectral benchmark (data paper). *Scientific Data*, planned (FreshDreaMS).
 - Freeman EC. Reading the room at ASLO-SIL 2026: 1461 talks and the shape of a field. *L&O Bulletin*, submitted (peer-reviewed; not on IGB list).
 
 **Contributing-author**
@@ -101,13 +92,6 @@ Full record below. First author: **8 published**, 13 in review or in preparation
 - Deglint JL, Park JA, **Freeman EC**, Erratt KJ, Allaf MM, Wong A. Feasibility of Instance Segmentation of Phytoplankton Using Brightfield Microscopy & Deep Learning. *Journal of Computational Vision and Imaging Systems* (2021).
 - Lembrechts J, Van den Hoogen J, Aalto J, Ashcroft M, De Frenne P, Kemppinen J, **Freeman EC**, & Hoffrén R. Global Maps of Soil Temperature. *Global Change Biology* (2021).
 - Creed IF, Bergström AK, Trick CG, Grimm NB, Hessen DO, Karlsson J, Kidd KA, Kritzberg E, McKnight DM, **Freeman EC**, Senar OE, & others. Global Change-driven Effects on Dissolved Organic Matter Composition: Implications for Food Webs of Northern Lakes. *Global Change Biology* (2018).
-- Beugnon, Cheneka et al. 2025. The Microclimate DataBase — turning the global SoilTemp project into an accessible archive for microclimate data. *Scientific Data*, in prep.
-- Graeber D, Kamjunke N, … **Freeman EC** (UFZ-led). PLANET DOM synthesis (planetary biogeochemical flows). In prep.
-- Tanentzap AJ, Sommer Starr S, Fonvielle J, **Freeman EC**. Landscape chemodiversity across the boreal–temperate gradient. In prep.
-- McLeod A, … **Freeman EC** (IGB). Evolving MetaEcos. In prep.
-- Chakrawal A, Mudunuru ML, … **Freeman EC** (PNNL / EMSL). Perspective on pore-scale modeling of organic-matter dynamics. *Environmental Science & Technology*, in prep.
-- Creed IF (lead), Erratt KJ, **Freeman EC** (lead FT-ICR-MS), Tanentzap AJ. Uganda DOM. In prep.
-- Creed IF, Tanentzap AJ, … **Freeman EC** (invited). How DOM composition matters (Perspective). In prep.
 - Creed IF, Trick CG, **Freeman EC**, Oakes B. Protocol for the analysis of phytoplankton using the FlowCAM® from Fluid Imaging Technologies. Standard Operating Procedure 001-2016 (2016).
 
 ## Protocols
