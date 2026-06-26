@@ -20,14 +20,14 @@ The things I make and chase when I'm not at the bench. Each opens its working fo
 ```{=html}
 <div class="projects-grid">
   <a class="project-card" href="https://drive.google.com/drive/folders/15nowp-VkPrbWb-wEvvo4aWEtFuV0YZB_" target="_blank" rel="noopener">
-    <div class="project-figure"><img src="assets/projects/outside.jpg" alt="Erika outdoors in athletic gear beside the water" loading="lazy" decoding="async"></div>
+    <div class="project-figure"><img src="assets/projects/adventure.svg" alt="Stylised mountains with a winding trail leading to a summit" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Adventure</h2>
       <p class="project-desc">Running, climbing, and the great out-the-door, currently training toward a sub-3:30 marathon. <span class="card-cta">Open in Drive →</span></p>
     </div>
   </a>
   <a class="project-card" href="https://drive.google.com/drive/folders/1vYOA1K6MltYL6QiZyjtnVZe0JX-jKdaZ" target="_blank" rel="noopener">
-    <div class="project-figure"><span class="figure-text">Travel</span></div>
+    <div class="project-figure"><img src="assets/projects/travel.svg" alt="Stylised globe with a dashed travel route between two pins" loading="lazy" decoding="async"></div>
     <div class="project-body">
       <h2 class="project-title">Travel</h2>
       <p class="project-desc">Field trips, conferences, and a deep love of Argentina. <span class="card-cta">Open in Drive →</span></p>
