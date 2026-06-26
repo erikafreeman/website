@@ -6,9 +6,12 @@ project:
 
 website:
   title: "Erika C. Freeman"
-  description: "Aquatic biogeochemist, IGB Berlin"
-  site-url: "https://erikacfreeman.com"
+  description: "Dr. Erika C. Freeman — carbon biogeochemist and Junior Group Leader at IGB Berlin, working on the ecology of molecules."
+  site-url: "https://erikafreeman.github.io/website"
   favicon: assets/favicon.png
+  image: assets/portrait.jpg
+  open-graph: true
+  twitter-card: true
   navbar: false
   page-footer: " "
 

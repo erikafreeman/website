@@ -100,6 +100,15 @@ main, .page-columns, #quarto-content {
   main, .page-columns, #quarto-content { padding: 0 1.5rem; }
 }
 
+/* === Responsive / overflow safeguards === */
+body { overflow-x: hidden; }
+img { max-width: 100%; }
+.bio-col h2.bio-label { margin-top: 0; }
+@media (max-width: 760px) {
+  .cv-page table { display: block; overflow-x: auto; }
+  .cv-page .cv-meta { overflow-wrap: anywhere; }
+}
+
 /* === Section labels (BIO / PROJECTS / etc.) === */
 .section-label {
   font-family: $font-family-sans-serif;
@@ -221,8 +230,12 @@ section.section-title { font-size: 1rem; font-weight: 400; line-height: 1.6; let
 
 @media (max-width: 1024px) {
   .hero-split { grid-template-columns: 1fr; margin: 0 -1.5rem; min-height: auto; }
-  .hero-photo { min-height: 380px; aspect-ratio: 4/3; order: -1; }
+  .hero-photo { min-height: 0; aspect-ratio: 4/3; order: -1; }
   .hero-content { padding: 3rem 2rem; }
+}
+@media (max-width: 600px) {
+  .hero-photo { aspect-ratio: 4/5; }
+  .hero-content { padding: 2.5rem 1.5rem; }
 }
 
 /* === Bio page — three-column layout === */

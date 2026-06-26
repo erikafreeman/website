@@ -35,7 +35,7 @@ format:
 ::: {.bio-section}
 ::: {.bio-grid}
 ::: {.bio-col}
-[Bio]{.bio-label}
+## Bio {.bio-label}
 
 ::: {.bio-text}
 I'm Erika, a researcher at the [Leibniz-Institut für Gewässerökologie und Binnenfischerei (IGB)](https://www.igb-berlin.de) in Berlin. I study how carbon moves through aquatic systems and what this means for human wellbeing. Most of my days go to *the ecology of molecules*, an idea I love that brings ecological thinking to molecular biogeochemistry.
@@ -50,13 +50,13 @@ And when I'm not at the office, you'll usually find me doing irresponsible amoun
 
 ::: {.bio-side}
 ::: {.bio-col .bio-list}
-[My passions]{.bio-label}
+## My passions {.bio-label}
 
 Scientific rigour, ecosystem management, teamwork and collaboration, fun and comedy, women's rights and equity, mental and physical wellbeing, and community and kindness.
 :::
 
 ::: {.bio-col .bio-list}
-[My expertise]{.bio-label}
+## My expertise {.bio-label}
 
 - Advanced analytical chemistry techniques
 - Environmental monitoring

@@ -6,7 +6,10 @@ tags itself. Runs after `quarto render` (see `post-render` in _quarto.yml)."""
 import pathlib
 
 SITE = pathlib.Path(__file__).resolve().parent.parent / "_site"
-BASE = "https://erikacfreeman.com"
+# Canonical points at the live site. While DNS still shows the old Canva page at
+# erikacfreeman.com, point canonicals at the GitHub Pages URL so search engines
+# index the current content. Switch back to https://erikacfreeman.com once DNS flips.
+BASE = "https://erikafreeman.github.io/website"
 
 
 def main():
