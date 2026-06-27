@@ -98,6 +98,10 @@ main, .page-columns, #quarto-content {
 }
 @media (max-width: 760px) {
   main, .page-columns, #quarto-content { padding: 0 1.5rem; }
+  /* On phones the Quarto page-grid places the main in an offset column, which
+     overflows (notably the CV). Collapse the grid to a simple full-width block. */
+  .quarto-container.page-columns { display: block; }
+  .quarto-container.page-columns > main.content { padding-left: 0; padding-right: 0; }
 }
 
 /* === Responsive / overflow safeguards === */
